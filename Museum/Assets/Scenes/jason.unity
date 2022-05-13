@@ -2093,7 +2093,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675724026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.87, z: 0}
+  m_LocalPosition: {x: 0, y: -0.923, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2802,7 +2802,7 @@ MonoBehaviour:
   controller: {fileID: 970121126}
   gravity: -9.81
   groundCheck: {fileID: 675724027}
-  groundDistance: 0.0004
+  groundDistance: 0.4
   groundMask:
     serializedVersion: 2
     m_Bits: 64
@@ -3464,7 +3464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5829710189573042943, guid: a8df0f7a43df63b499923a7189fbd414, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8df0f7a43df63b499923a7189fbd414, type: 3}
