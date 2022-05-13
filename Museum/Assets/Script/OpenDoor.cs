@@ -9,7 +9,7 @@ public class OpenDoor : MonoBehaviour
     [SerializeField] GameObject[] leftDoorWaypoints;
     [SerializeField] GameObject[] rightDoorWaypoints;
 
-    bool closedDoor=true;
+    public bool closedDoor=true;
     bool playerFlag=false;
     private void OnTriggerStay(Collider other){
         if(other.gameObject.CompareTag("Player")){
