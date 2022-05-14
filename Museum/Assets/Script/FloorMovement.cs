@@ -13,7 +13,7 @@ public class FloorMovement : MonoBehaviour
     [SerializeField] float speed = 1f;
     [SerializeField] GameObject[] FloorWaypoints;
     [SerializeField] GameObject[] RoofWaypoints;
-
+    public int openDoorFlag= -1;
     int pos = 0;
     void Awake(){
         openDoorDown = DoorCheckDown.GetComponent<OpenDoor>();
@@ -27,11 +27,17 @@ public class FloorMovement : MonoBehaviour
             }
         }
     }
+    private void OnTriggerExit(Collider other){
+        openDoorFlag=-1;
+    }
     private void OnTriggerStay(Collider other){
         if(openDoorDown.closedDoor && openDoorUp.closedDoor){
             if(Vector3.Distance(Floor.position, FloorWaypoints[pos].transform.position) > .1f){
                 Floor.position = Vector3.MoveTowards(Floor.position, FloorWaypoints[pos].transform.position, speed*Time.deltaTime);
                 Roof.position = Vector3.MoveTowards(Roof.position, RoofWaypoints[pos].transform.position, speed*Time.deltaTime);
+            }
+            else{
+                openDoorFlag= pos;
             }
         }
     }
