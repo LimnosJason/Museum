@@ -2475,14 +2475,22 @@ MonoBehaviour:
   DoorCheckDown: {fileID: 1925134841}
   DoorCheckUp: {fileID: 264963156}
   Floor: {fileID: 1131616684}
+  OtherFloor: {fileID: 1357060939}
   Roof: {fileID: 1177702756}
+  OtherRoof: {fileID: 1908323466}
   speed: 1
   FloorWaypoints:
   - {fileID: 613597162}
   - {fileID: 1155021726}
+  OtherFloorWaypoints:
+  - {fileID: 1540609120}
+  - {fileID: 400246456}
   RoofWaypoints:
   - {fileID: 1922139879}
   - {fileID: 105850869}
+  OtherRoofWaypoints:
+  - {fileID: 159305950}
+  - {fileID: 1142044071}
   openDoorFlag: -1
 --- !u!1001 &478161752
 PrefabInstance:
@@ -4887,12 +4895,20 @@ PrefabInstance:
       value: 0.6412599
       objectReference: {fileID: 0}
     - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.026081672
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
       propertyPath: m_LocalScale.z
       value: 4.9502726
       objectReference: {fileID: 0}
     - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.823
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.571
       objectReference: {fileID: 0}
     - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6003,16 +6019,40 @@ PrefabInstance:
       value: 0.6412599
       objectReference: {fileID: 0}
     - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.026081672
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
       propertyPath: m_LocalScale.z
       value: 4.9502726
       objectReference: {fileID: 0}
     - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.823
+      value: -0.804
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.56980234
       objectReference: {fileID: 0}
     - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.63
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.000000119209275
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078009477502242090, guid: 10acc3630f5592546a8de497e9711803, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9078009477595598647, guid: 10acc3630f5592546a8de497e9711803, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6492,14 +6532,22 @@ MonoBehaviour:
   DoorCheckDown: {fileID: 1241572392}
   DoorCheckUp: {fileID: 1511560311}
   Floor: {fileID: 1357060939}
+  OtherFloor: {fileID: 1131616684}
   Roof: {fileID: 1908323466}
+  OtherRoof: {fileID: 1177702756}
   speed: 1
   FloorWaypoints:
   - {fileID: 1540609120}
   - {fileID: 400246456}
+  OtherFloorWaypoints:
+  - {fileID: 613597162}
+  - {fileID: 1155021726}
   RoofWaypoints:
   - {fileID: 159305950}
   - {fileID: 1142044071}
+  OtherRoofWaypoints:
+  - {fileID: 1922139879}
+  - {fileID: 105850869}
   openDoorFlag: -1
 --- !u!65 &1403256041
 BoxCollider:

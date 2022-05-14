@@ -9,10 +9,14 @@ public class FloorMovement : MonoBehaviour
     [SerializeField] GameObject DoorCheckDown;
     [SerializeField] GameObject DoorCheckUp;
     [SerializeField] Transform Floor;
+    [SerializeField] Transform OtherFloor;
     [SerializeField] Transform Roof;
+    [SerializeField] Transform OtherRoof;
     [SerializeField] float speed = 1f;
     [SerializeField] GameObject[] FloorWaypoints;
+    [SerializeField] GameObject[] OtherFloorWaypoints;
     [SerializeField] GameObject[] RoofWaypoints;
+    [SerializeField] GameObject[] OtherRoofWaypoints;
     public int openDoorFlag= -1;
     int pos = 0;
     void Awake(){
@@ -35,6 +39,9 @@ public class FloorMovement : MonoBehaviour
             if(Vector3.Distance(Floor.position, FloorWaypoints[pos].transform.position) > .1f){
                 Floor.position = Vector3.MoveTowards(Floor.position, FloorWaypoints[pos].transform.position, speed*Time.deltaTime);
                 Roof.position = Vector3.MoveTowards(Roof.position, RoofWaypoints[pos].transform.position, speed*Time.deltaTime);
+
+                OtherFloor.position = Vector3.MoveTowards(OtherFloor.position, OtherFloorWaypoints[pos].transform.position, speed*Time.deltaTime);
+                OtherRoof.position = Vector3.MoveTowards(OtherRoof.position, OtherRoofWaypoints[pos].transform.position, speed*Time.deltaTime);
             }
             else{
                 openDoorFlag= pos;
