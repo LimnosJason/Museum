@@ -41,7 +41,7 @@ public class OpenDoor : MonoBehaviour
         else if(!closedDoor&&!playerFlag){
             LeftDoor.position = Vector3.MoveTowards(LeftDoor.position, leftDoorWaypoints[0].transform.position,1f * Time.deltaTime);
             RightDoor.position = Vector3.MoveTowards(RightDoor.position, rightDoorWaypoints[0].transform.position,1f * Time.deltaTime);
-            Debug.Log(Vector3.Distance(LeftDoor.position,leftDoorWaypoints[0].transform.position));
+            
             if(Vector3.Distance(LeftDoor.position,leftDoorWaypoints[0].transform.position)< .00001f){
                 closedDoor=true;
             }
