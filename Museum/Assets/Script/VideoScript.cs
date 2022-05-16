@@ -6,20 +6,20 @@ using UnityEngine.Video;
 public class VideoScript : MonoBehaviour
 {
     private VideoPlayer videoPlayer;
-    bool flag=false;
+
     void Awake(){
         videoPlayer= GetComponent<VideoPlayer>();
     }
-
-    public void PlayPause(){
-        if(flag){
-            flag=false;
-            videoPlayer.Pause();
-        }
-        else{
-            Debug.Log("awda");
-            flag=true;
-            videoPlayer.Play();
-        }
+    public void MuteVideo(){
+        videoPlayer.SetDirectAudioMute(0,true);
+    }
+    public void UnMuteVideo(){
+        videoPlayer.SetDirectAudioMute(0,false);
+    }
+    public void PlayVideo(){
+        videoPlayer.Play();
+    }
+    public void PauseVideo(){
+        videoPlayer.Pause();
     }
 }

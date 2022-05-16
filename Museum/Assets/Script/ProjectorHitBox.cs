@@ -14,10 +14,21 @@ public class ProjectorHitBox : MonoBehaviour
     private void OnTriggerStay(Collider other){
         if(other.gameObject.CompareTag("Player")){
             if(Input.GetKeyDown(KeyCode.P)){
-                Debug.Log("dwa");
-                videoScript.PlayPause();
+                videoScript.PlayVideo();
+            }
+            else if(Input.GetKeyDown(KeyCode.O)){
+                videoScript.PauseVideo();
             }
         }   
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        videoScript.MuteVideo();
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        videoScript.UnMuteVideo();
     }
 
     // Update is called once per frame
