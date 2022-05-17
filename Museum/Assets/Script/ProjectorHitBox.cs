@@ -30,10 +30,4 @@ public class ProjectorHitBox : MonoBehaviour
     {
         videoScript.UnMuteVideo();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
