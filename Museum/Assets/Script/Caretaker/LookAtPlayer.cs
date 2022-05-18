@@ -11,5 +11,6 @@ public class LookAtPlayer : MonoBehaviour
     void Update()
     {
         transform.LookAt(Player);
+        transform.rotation = Quaternion.Euler(0,transform.rotation.eulerAngles.y,0);
     }
 }

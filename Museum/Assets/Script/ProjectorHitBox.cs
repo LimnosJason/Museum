@@ -7,8 +7,12 @@ public class ProjectorHitBox : MonoBehaviour
     VideoScript videoScript;
     [SerializeField] GameObject video;
 
+    ButtonNames buttonNames;
+    [SerializeField] GameObject buttons;
+
     void Awake(){
         videoScript = video.GetComponent<VideoScript>();
+        buttonNames = buttons.GetComponent<ButtonNames>();
     }
 
     private void OnTriggerStay(Collider other){
@@ -24,10 +28,13 @@ public class ProjectorHitBox : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
+        buttonNames.DisableButtons();
         videoScript.MuteVideo();
     }
     void OnTriggerEnter(Collider other)
     {
+        buttonNames.ProjectRoom();
+        buttonNames.EnableButtons();
         videoScript.UnMuteVideo();
     }
 }
