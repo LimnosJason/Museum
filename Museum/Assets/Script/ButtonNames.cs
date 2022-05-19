@@ -64,6 +64,7 @@ public class ButtonNames : MonoBehaviour
             case 1:
                 break;
             case 2:
+                animator.ChangeAnimationState("Talking");
                 mainButtons.EnableButtons();
                 break;
         }

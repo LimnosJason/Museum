@@ -22,4 +22,7 @@ public class VideoScript : MonoBehaviour
     public void PauseVideo(){
         videoPlayer.Pause();
     }
+    public bool Playing(){
+        return videoPlayer.isPlaying;
+    }
 }
