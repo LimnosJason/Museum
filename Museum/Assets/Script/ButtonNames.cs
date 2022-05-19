@@ -17,10 +17,14 @@ public class ButtonNames : MonoBehaviour
     VideoScript videoScript;
     [SerializeField] GameObject video;
 
+    AnimationManager animator;
+    [SerializeField] GameObject animationObject;
+
     int numAction;
     void Awake(){
         videoScript = video.GetComponent<VideoScript>();
         mainButtons = talkingButtons.GetComponent<MainButtons>();
+        animator = animationObject.GetComponent<AnimationManager>();
         DisableButtons();
     }
 
@@ -73,6 +77,7 @@ public class ButtonNames : MonoBehaviour
             case 1:
                 break;
             case 2:
+                animator.ChangeAnimationState("Waving");
                 break;
         }
 	}

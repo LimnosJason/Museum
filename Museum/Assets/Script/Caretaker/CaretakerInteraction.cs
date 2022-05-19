@@ -9,14 +9,9 @@ public class CaretakerInteraction : MonoBehaviour
     MainButtons mainButtons;
     [SerializeField] GameObject talkingButtons;
 
-    // AnimationManager animator;
-    // [SerializeField] GameObject animationObject;
-
-
     void Awake(){
         buttonNames = buttons.GetComponent<ButtonNames>();
         mainButtons = talkingButtons.GetComponent<MainButtons>();
-        // animator = animation.GetComponent<AnimationManager>();
     }
     private void OnTriggerStay(Collider other){
         if(other.gameObject.CompareTag("Player")){
@@ -32,11 +27,11 @@ public class CaretakerInteraction : MonoBehaviour
     {
         mainButtons.DisableButtons();
         buttonNames.DisableButtons();
-        // animator.ChangeAnimationState("Waving");
     }
     void OnTriggerEnter(Collider other)
     {
         buttonNames.CareTakerInteraction();
         buttonNames.EnableButtons();
     }
+    
 }
