@@ -13762,7 +13762,7 @@ GameObject:
   - component: {fileID: 472023273}
   - component: {fileID: 472023272}
   m_Layer: 0
-  m_Name: Plane (2)
+  m_Name: Project Room Poster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24576,7 +24576,7 @@ GameObject:
   - component: {fileID: 859106711}
   - component: {fileID: 859106710}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Greek Poster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31004,7 +31004,7 @@ GameObject:
   - component: {fileID: 1025538703}
   - component: {fileID: 1025538702}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: Egypt Poster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
