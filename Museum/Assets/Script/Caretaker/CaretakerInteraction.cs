@@ -9,7 +9,7 @@ public class CaretakerInteraction : MonoBehaviour
     MainButtons mainButtons;
     [SerializeField] GameObject talkingButtons;
 
-    private bool talkingFlag=false;
+    public bool talkingFlag=false;
     void Awake(){
         buttonNames = buttons.GetComponent<ButtonNames>();
         mainButtons = talkingButtons.GetComponent<MainButtons>();
@@ -17,7 +17,6 @@ public class CaretakerInteraction : MonoBehaviour
     private void OnTriggerStay(Collider other){
         if(other.gameObject.CompareTag("Player")){
             if(Input.GetKeyDown(KeyCode.T)){
-                mainButtons.ChangeText("Ask me anything!");
                 talkingFlag=true;
                 buttonNames.ButtonUpActions();
             }

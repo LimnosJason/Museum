@@ -16,6 +16,8 @@ public class MainButtons : MonoBehaviour
     AnimationManager animator;
     [SerializeField] GameObject animationObject;
 
+    bool flag=true;
+
     void Awake(){
         animator = animationObject.GetComponent<AnimationManager>();
         DisableButtons();
@@ -38,23 +40,36 @@ public class MainButtons : MonoBehaviour
         BackGround.SetActive(true);
     }
 
-    public void ChangeText(string NewText){
-        mainText.text=NewText;
+    public void ChangeText(string NewText,string AnimationString){
+        StartCoroutine(WaitFunction(NewText,AnimationString));
     }
+
+    IEnumerator WaitFunction(string NewText,string AnimationString)
+    {
+        if(flag){
+            flag=false;
+            animator.ChangeAnimationState(AnimationString);
+            string[] words = NewText.Split(' ');
+            mainText.text="";
+            foreach (var word in words)
+            {
+                mainText.text=mainText.text+" "+word;
+                yield return new WaitForSeconds(0.2f);
+            }
+            flag=true;
+        }
+    }
+
     public void TopLeftAction(){
-        ChangeText("The museum was made on the 10th of May 2022, by Limnos, Bili, Velasko and Chaniotakis.");
-        animator.ChangeAnimationState("Talking");
+        ChangeText("The museum was made on the 10th of May 2022, by Limnos, Bili, Velasko and Chaniotakis.","Talking");
 	}
     public void TopRightAction(){
-        ChangeText("There was a zombie apocalypse and we are the sole survivors.");
-        animator.ChangeAnimationState("Walking");
+        ChangeText("There was a zombie apocalypse and we are the sole survivors.","Walking");
 	}
     public void BotLeftAction(){
-        ChangeText("My favorite art piece is Banana Man! He is the best!");
-        animator.ChangeAnimationState("Talking");
+        ChangeText("My favorite art piece is Banana Man! He is the best!","Talking");
 	}
     public void BotRightAction(){
-        ChangeText("THEEEEREEEEEEEEE...");
-        animator.ChangeAnimationState("Charge");
+        ChangeText("THEEEEREEEEEEEEE...","Charge");
 	}
 }
