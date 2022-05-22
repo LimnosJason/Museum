@@ -9,6 +9,7 @@ public class Collectables : MonoBehaviour
     [SerializeField] GameObject CollectButton;
     [SerializeField] GameObject CollectableImage;
     [SerializeField] GameObject Count;
+    [SerializeField] AudioSource collectionSound;
     void Awake(){
         CollectButton.SetActive(false);
     }
@@ -16,6 +17,7 @@ public class Collectables : MonoBehaviour
         if(other.gameObject.CompareTag("Player")){
             if(Input.GetKeyDown(KeyCode.C)){
                 Destroy(CollectableImage);
+                collectionSound.Play();
                 int childs = 5-(getChildren(Count)-2)/2;
                 CollectablesText.text="Images : "+ childs +"/5";
                 CollectButton.SetActive(false);
