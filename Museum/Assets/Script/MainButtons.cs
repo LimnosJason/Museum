@@ -16,6 +16,8 @@ public class MainButtons : MonoBehaviour
     AnimationManager animator;
     [SerializeField] GameObject animationObject;
 
+    [SerializeField] AudioSource typingSound;
+
     bool flag=true;
 
     void Awake(){
@@ -53,9 +55,13 @@ public class MainButtons : MonoBehaviour
             mainText.text="";
             foreach (var word in words)
             {
+                if(!typingSound.isPlaying){
+                    typingSound.Play();
+                }
                 mainText.text=mainText.text+" "+word;
                 yield return new WaitForSeconds(0.2f);
             }
+            typingSound.Stop();
             flag=true;
         }
     }
