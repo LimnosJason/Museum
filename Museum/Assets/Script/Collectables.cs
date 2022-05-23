@@ -6,10 +6,17 @@ using TMPro;
 public class Collectables : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI CollectablesText;
+    [SerializeField] TextMeshProUGUI BananaSummonText;
+
     [SerializeField] GameObject CollectButton;
     [SerializeField] GameObject CollectableImage;
     [SerializeField] GameObject Count;
+
     [SerializeField] AudioSource collectionSound;
+    [SerializeField] AudioSource BananaSummonSound;
+
+    [SerializeField] GameObject BananaMan;
+    
     void Awake(){
         CollectButton.SetActive(false);
     }
@@ -20,6 +27,11 @@ public class Collectables : MonoBehaviour
                 collectionSound.Play();
                 int childs = 5-(getChildren(Count)-2)/2;
                 CollectablesText.text="Images : "+ childs +"/5";
+                if(childs==5){
+                    BananaMan.SetActive(true);
+                    BananaSummonSound.Play();
+                    BananaSummonText.text="Banana Man is summoned";
+                }
                 CollectButton.SetActive(false);
             }
         }   
