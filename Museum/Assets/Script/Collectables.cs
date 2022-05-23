@@ -27,8 +27,8 @@ public class Collectables : MonoBehaviour
                 Destroy(CollectableImage);
                 collectionSound.Play();
                 int childs = 5-(getChildren(Count)-2)/2;
-                CollectablesText.text="Images : "+ childs +"/5";
-                if(childs==1){
+                CollectablesText.text="Tickets : "+ childs +"/5";
+                if(childs==5){
                     BananaMan.SetActive(true);
                     BananaSummonSound.Play();
                     BananaSummonText.enabled = true;

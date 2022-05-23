@@ -17,6 +17,7 @@ public class FloorMovement : MonoBehaviour
     [SerializeField] GameObject[] OtherFloorWaypoints;
     [SerializeField] GameObject[] RoofWaypoints;
     [SerializeField] GameObject[] OtherRoofWaypoints;
+    [SerializeField] AudioSource ElevatorSound;
     public int openDoorFlag= -1;
     int pos = 0;
     void Awake(){
@@ -32,6 +33,7 @@ public class FloorMovement : MonoBehaviour
         }
     }
     private void OnTriggerExit(Collider other){
+        ElevatorSound.Pause();
         openDoorFlag=-1;
     }
     private void OnTriggerStay(Collider other){
@@ -41,11 +43,14 @@ public class FloorMovement : MonoBehaviour
                 Roof.position = Vector3.MoveTowards(Roof.position, RoofWaypoints[pos].transform.position, speed*Time.deltaTime);
 
                 OtherFloor.position = Vector3.MoveTowards(OtherFloor.position, OtherFloorWaypoints[pos].transform.position, speed*Time.deltaTime);
-                OtherRoof.position = Vector3.MoveTowards(OtherRoof.position, OtherRoofWaypoints[pos].transform.position, speed*Time.deltaTime);
+                OtherRoof.position = Vector3.MoveTowards(OtherRoof.position, OtherRoofWaypoints[pos].transform.position, speed*Time.deltaTime);                
             }
             else{
                 openDoorFlag= pos;
             }
+        }
+        if(!ElevatorSound.isPlaying){
+            ElevatorSound.Play();
         }
     }
 
