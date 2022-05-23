@@ -19,6 +19,7 @@ public class Collectables : MonoBehaviour
     
     void Awake(){
         CollectButton.SetActive(false);
+        BananaSummonText.enabled = false;
     }
     private void OnTriggerStay(Collider other){
         if(other.gameObject.CompareTag("Player")){
@@ -30,12 +31,13 @@ public class Collectables : MonoBehaviour
                 if(childs==5){
                     BananaMan.SetActive(true);
                     BananaSummonSound.Play();
-                    BananaSummonText.text="Banana Man is summoned";
+                    BananaSummonText.enabled = true;
                 }
                 CollectButton.SetActive(false);
             }
         }   
     }
+
     void OnTriggerExit(Collider other)
     {
         CollectButton.SetActive(false);
