@@ -28,10 +28,11 @@ public class Collectables : MonoBehaviour
                 collectionSound.Play();
                 int childs = 5-(getChildren(Count)-2)/2;
                 CollectablesText.text="Images : "+ childs +"/5";
-                if(childs==5){
+                if(childs==1){
                     BananaMan.SetActive(true);
                     BananaSummonSound.Play();
                     BananaSummonText.enabled = true;
+                    Destroy(BananaSummonText, 4);
                 }
                 CollectButton.SetActive(false);
             }
