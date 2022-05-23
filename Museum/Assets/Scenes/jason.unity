@@ -35951,7 +35951,7 @@ MonoBehaviour:
   video: {fileID: 1020704257}
   animationObject: {fileID: 1331554154}
   caretakerHitBox: {fileID: 1920735506}
-  artHB: {fileID: 0}
+  artHB: {fileID: 880776380}
 --- !u!1 &884650254
 GameObject:
   m_ObjectHideFlags: 0
