@@ -10,9 +10,12 @@ public class ProjectorHitBox : MonoBehaviour
     ButtonNames buttonNames;
     [SerializeField] GameObject buttons;
 
+    AnimationManager animator;
+    [SerializeField] GameObject animationObject;
     void Awake(){
         videoScript = video.GetComponent<VideoScript>();
         buttonNames = buttons.GetComponent<ButtonNames>();
+        animator = animationObject.GetComponent<AnimationManager>();
     }
 
     private void OnTriggerStay(Collider other){
@@ -22,6 +25,9 @@ public class ProjectorHitBox : MonoBehaviour
             }
             else if(Input.GetKeyDown(KeyCode.O)){
                 videoScript.PauseVideo();
+            }
+            if(videoScript.Playing()){
+                animator.ChangeAnimationState("Dancing Maraschino Step");
             }
         }   
     }

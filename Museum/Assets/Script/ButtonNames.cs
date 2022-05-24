@@ -17,10 +17,21 @@ public class ButtonNames : MonoBehaviour
     VideoScript videoScript;
     [SerializeField] GameObject video;
 
+    AnimationManager animator;
+    [SerializeField] GameObject animationObject;
+
+    CaretakerInteraction caretakerInteraction;
+    [SerializeField] GameObject caretakerHitBox;
+
+    ArtHitBox artHitBox;
+    [SerializeField] GameObject artHB;
     int numAction;
     void Awake(){
         videoScript = video.GetComponent<VideoScript>();
         mainButtons = talkingButtons.GetComponent<MainButtons>();
+        animator = animationObject.GetComponent<AnimationManager>();
+        caretakerInteraction = caretakerHitBox.GetComponent<CaretakerInteraction>();
+        artHitBox = artHB.GetComponent<ArtHitBox>();
         DisableButtons();
     }
 
@@ -42,7 +53,7 @@ public class ButtonNames : MonoBehaviour
     
     public void ArtWorkInteraction(){
         TextUp.text="Inspect (I)";
-        TextDown.text="Put To Cart (B)";
+        TextDown.text="To Cart (B)";
         numAction=1;
     }
     
@@ -58,8 +69,12 @@ public class ButtonNames : MonoBehaviour
                 videoScript.PlayVideo();
                 break;
             case 1:
+                //artHitBox.
                 break;
             case 2:
+                caretakerInteraction.talkingFlag=true;
+                animator.ChangeAnimationState("Talking");
+                mainButtons.ChangeText("Ask me anything!","Talking");
                 mainButtons.EnableButtons();
                 break;
         }
@@ -71,8 +86,10 @@ public class ButtonNames : MonoBehaviour
                 videoScript.PauseVideo();
                 break;
             case 1:
+                //artHitBox.
                 break;
             case 2:
+                animator.ChangeAnimationState("Waving");
                 break;
         }
 	}

@@ -9,34 +9,46 @@ public class CaretakerInteraction : MonoBehaviour
     MainButtons mainButtons;
     [SerializeField] GameObject talkingButtons;
 
-    // AnimationManager animator;
-    // [SerializeField] GameObject animationObject;
-
-
+    public bool talkingFlag=false;
     void Awake(){
         buttonNames = buttons.GetComponent<ButtonNames>();
         mainButtons = talkingButtons.GetComponent<MainButtons>();
-        // animator = animation.GetComponent<AnimationManager>();
     }
     private void OnTriggerStay(Collider other){
         if(other.gameObject.CompareTag("Player")){
             if(Input.GetKeyDown(KeyCode.T)){
+                talkingFlag=true;
                 buttonNames.ButtonUpActions();
             }
             else if(Input.GetKeyDown(KeyCode.H)){
                 buttonNames.ButtonDownActions();
             }
+            else if(talkingFlag){
+                if(Input.GetKeyDown(KeyCode.Alpha1)){
+                    mainButtons.TopLeftAction();
+                }
+                else if(Input.GetKeyDown(KeyCode.Alpha2)){
+                    mainButtons.TopRightAction();
+                }
+                else if(Input.GetKeyDown(KeyCode.Alpha3)){
+                    mainButtons.BotLeftAction();
+                }
+                else if(Input.GetKeyDown(KeyCode.Alpha4)){
+                    mainButtons.BotRightAction();
+                }
+            }
         }   
     }
     void OnTriggerExit(Collider other)
     {
+        talkingFlag=false;
         mainButtons.DisableButtons();
         buttonNames.DisableButtons();
-        // animator.ChangeAnimationState("Waving");
     }
     void OnTriggerEnter(Collider other)
     {
         buttonNames.CareTakerInteraction();
         buttonNames.EnableButtons();
     }
+    
 }

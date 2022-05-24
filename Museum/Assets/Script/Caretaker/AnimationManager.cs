@@ -15,11 +15,6 @@ public class AnimationManager : MonoBehaviour
     }
 
     public void ChangeAnimationState(string newState){
-
-        if(currentState==newState)return;
-
         animator.Play(newState);
-
-        currentState = newState;
     }
 }
