@@ -76687,7 +76687,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1952107081}
         m_TargetAssemblyTypeName: Collectables, Assembly-CSharp
-        m_MethodName: Collect
+        m_MethodName: ClickedCollect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -76699,7 +76699,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 270148449}
         m_TargetAssemblyTypeName: Collectables, Assembly-CSharp
-        m_MethodName: Collect
+        m_MethodName: ClickedCollect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -76711,7 +76711,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1026583556}
         m_TargetAssemblyTypeName: Collectables, Assembly-CSharp
-        m_MethodName: Collect
+        m_MethodName: ClickedCollect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -76723,7 +76723,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1047142935}
         m_TargetAssemblyTypeName: Collectables, Assembly-CSharp
-        m_MethodName: Collect
+        m_MethodName: ClickedCollect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -76735,7 +76735,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1672991482}
         m_TargetAssemblyTypeName: Collectables, Assembly-CSharp
-        m_MethodName: Collect
+        m_MethodName: ClickedCollect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
