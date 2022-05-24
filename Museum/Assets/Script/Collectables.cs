@@ -17,13 +17,20 @@ public class Collectables : MonoBehaviour
 
     [SerializeField] GameObject BananaMan;
     
+    bool flag=false;
+    bool collect=false;
     void Awake(){
         CollectButton.SetActive(false);
         BananaSummonText.enabled = false;
     }
+    public void ClickedCollect(){
+        if(flag){
+            collect=true;
+        }
+    }
     private void OnTriggerStay(Collider other){
         if(other.gameObject.CompareTag("Player")){
-            if(Input.GetKeyDown(KeyCode.C)){
+            if(Input.GetKeyDown(KeyCode.C)||collect){
                 Destroy(CollectableImage);
                 collectionSound.Play();
                 int childs = 5-(getChildren(Count)-2)/2;
@@ -41,10 +48,12 @@ public class Collectables : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
+        flag=false;
         CollectButton.SetActive(false);
     }
     void OnTriggerEnter(Collider other)
     {
+        flag=true;
         CollectButton.SetActive(true);
     }
 
