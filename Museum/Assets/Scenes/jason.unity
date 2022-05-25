@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43708867, g: 0.48480117, b: 0.5650674, a: 1}
+  m_IndirectSpecularColor: {r: 0.4370882, g: 0.48480004, b: 0.565067, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -998,6 +998,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Chinese guardian lions, or imperial guardian lions, are a traditional
+        Chinese architectural ornament. Typically made of stone, they are also known
+        as stone lions or shishi.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1 &16550097
@@ -1157,7 +1163,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NEFERTITI
+  m_text: Chinese Exhibition(202 B.C.)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1535,7 +1541,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22123639}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.6565828}
+  m_LocalPosition: {x: 0, y: 0, z: -0.7}
   m_LocalScale: {x: 0.01814553, y: 0.05400043, z: 2.0891943}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1545,7 +1551,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.026689678, y: 0.120371565}
+  m_AnchoredPosition: {x: -0.419, y: 0.059}
   m_SizeDelta: {x: 1.0038, y: 0.9836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &22123641
@@ -2598,6 +2604,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Portal to a black and white world, where fantasy is no longer available.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &49716013 stripped
@@ -4234,6 +4244,19 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'The Kiss
+
+        Artist: Gustav Klimt
+
+        Estimated date: 1907
+        to 1908
+
+        From Klimt''s "Golden Period," Byzantine artistic influences
+        can be seen in the highly decorative robes worn by the passionate, life-sized
+        couple.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &88951123 stripped
@@ -4488,7 +4511,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96651845}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.69984937}
+  m_LocalPosition: {x: 0, y: 0, z: -0.7}
   m_LocalScale: {x: 0.0131395515, y: 0.03139508, z: 2.0891945}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4498,7 +4521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.02, y: 0.15370226}
+  m_AnchoredPosition: {x: -0.389, y: 0.035}
   m_SizeDelta: {x: 1.0038, y: 0.9836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &96651847
@@ -7381,6 +7404,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "Cubiculum (bedroom) from the Villa of P. Fannius Synistor at Boscoreale,
+        c. 50\u201340 BC; Roman"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &172499740 stripped
@@ -7453,19 +7481,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.8328235
+      value: 3.8328242
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.7976
+      value: 0.79758775
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7277
+      value: -1.7277008
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.4669
+      value: -0.05139862
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10771,6 +10799,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: This is a Roman floor lamp for indirect lighting, having its source
+        of light within a reflecting bowl that directs the light upward.q
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1 &255367639
@@ -11950,7 +11983,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273716653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.6565828}
+  m_LocalPosition: {x: 0, y: 0, z: -0.7}
   m_LocalScale: {x: 0.01814553, y: 0.05400043, z: 2.0891943}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11960,7 +11993,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.026689678, y: 0.120371565}
+  m_AnchoredPosition: {x: -0.409, y: 0.033}
   m_SizeDelta: {x: 1.0038, y: 0.9836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273716655
@@ -12277,6 +12310,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'Roman Pugio
+
+        The pugio was a dagger used by Roman soldiers
+        as a sidearm. It seems likely that the pugio was intended as an auxiliary
+        weapon, but its exact purpose for the soldier remains unknown.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &283137339 stripped
@@ -12497,6 +12538,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: With increased trade during the Han dynasty and cultural exchanges through
+        the Silk road, lions were introduced into China from the ancient states of
+        Central Asia by peoples of Sogdiana, Samarkand, and the Yuezhi in the form
+        of pelts and live tribute, along with stories about them from Buddhist priests
+        and travelers of the time
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &284281090 stripped
@@ -13698,8 +13747,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.50384647, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1610098955}
+  m_Children: []
   m_Father: {fileID: 1317952833}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -14773,6 +14821,13 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rThe Scream\r\n- Artist: Edvard Munch\r\n- Year: 1893\r\nPopularly
+        known as \u201CThe Scream,\u201D Norwegian artist Edvard Munch\u2019s expressionist
+        masterpiece is frequently interpreted as a primal response to the excessive
+        pressures of modern life. Originally titled \u201CThe Shriek of Nature\u201D. "
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &347251386 stripped
@@ -15482,7 +15537,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TEXT ABOUT VASES
+  m_text: "<b>Greek Vases</b>\nAncient Greek pottery, due to its relative durability,\ncomprises
+    a large part of the archaeological record of\nancient Greece, and since there
+    is so much of it \nit has exerted a disproportionately large\ninfluence on our
+    understanding of Greek society."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15515,8 +15573,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -16439,7 +16497,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 36d9b946562d4504c822ece44bb3f054, type: 2}
     - target: {fileID: 5943900352098051452, guid: 98d340899ad0c0143add68e595687cc1, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5943900352098051452, guid: 98d340899ad0c0143add68e595687cc1, type: 3}
       propertyPath: m_LocalScale.x
@@ -18469,7 +18527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6483377191740190533, guid: 7b78dc10f8a7680449894ddb604a2f65, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 332.3
+      value: 329.28
       objectReference: {fileID: 0}
     - target: {fileID: 6483377191740190533, guid: 7b78dc10f8a7680449894ddb604a2f65, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20072,7 +20130,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 59e6aadde74e5cb46ac51b272b1cc5e4, type: 2}
+  - {fileID: 2100000, guid: cd0627f25f250ca43a0a45a588a341d2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20497,6 +20555,13 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'Roman oil lamp (LUCERNA)
+
+        They were fed with olive oil and
+        had from one to a dozen wicks.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &485073687 stripped
@@ -20723,6 +20788,104 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 159426, guid: 1f6ea29666adc934d89bf34ed3110cb1, type: 3}
   m_PrefabInstance: {fileID: 2128430505}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &489184764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 489184765}
+  - component: {fileID: 489184768}
+  - component: {fileID: 489184767}
+  - component: {fileID: 489184766}
+  m_Layer: 0
+  m_Name: Rome 63 BC (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &489184765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489184764}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: -15.582, y: 6.48, z: 25.288}
+  m_LocalScale: {x: 2.0729213, y: 0.61175007, z: 0.05236386}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1803962001}
+  m_Father: {fileID: 1164649036}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!65 &489184766
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489184764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &489184767
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489184764}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &489184768
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489184764}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &489424979
 GameObject:
   m_ObjectHideFlags: 0
@@ -21905,6 +22068,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rAmerican Gothic\r\n\n- Artist: Grant Wood\r\n- Year: 1930\r\nGrant
+        Wood spent years searching for inspiration in Europe. A national icon and
+        leading exponent of regionalism, \u201CAmerican Gothic\u201D depicts what
+        appears to be a Depression-era farmer and his weathered wife. Grant intended
+        the couple to represent father and daughter; in reality, they were neither.
+        The man holding the pitchfork was Wood\u2019s dentist, Byron McKeeby, flanked
+        by the artist\u2019s sister, Nan Wood Graham.\r"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &517117299 stripped
@@ -23351,6 +23524,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "Discobolus\n------------------\nThe Discobolus of Myron is a Greek
+        sculpture completed at the start of the Classical period at around 460\u2013450
+        BC."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &555349835 stripped
@@ -26786,7 +26965,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalScale.x
@@ -26848,6 +27027,19 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'The Birth of Venus
+
+        Artist: Sandro Botticelli
+
+        Estimated
+        date: 1485
+
+        Marrying a renewed interest in classic Greek culture
+        with Early Renaissance style, Botticelli creates an unforgettable figure
+        with the Goddess of Love emerging from a huge scallop shell.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &640922965 stripped
@@ -29471,6 +29663,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rPortrait of Madame X\r\n- Artist: John Singer Sargent\r\n- Year:
+        1883\u201384\r\nJohn Singer Sargent\u2019s moody portrait of Virginie Avegno
+        Gautreau, the American wife of a French banker."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &691810808 stripped
@@ -29766,6 +29964,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: This is a snippet from our code.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &696608095 stripped
@@ -31538,6 +31740,104 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 739141493734083866, guid: b4aec43c78884de4d80f53634e73a935, type: 3}
   m_PrefabInstance: {fileID: 736578075}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &741116163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 741116164}
+  - component: {fileID: 741116167}
+  - component: {fileID: 741116166}
+  - component: {fileID: 741116165}
+  m_Layer: 0
+  m_Name: Rome 63 BC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &741116164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741116163}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -15.694, y: 6.48, z: 25.288}
+  m_LocalScale: {x: 2.0729213, y: 0.61175007, z: 0.05236386}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1967649790}
+  m_Father: {fileID: 1164649036}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &741116165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741116163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &741116166
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741116163}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &741116167
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741116163}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &741653205 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 478776525477544657, guid: b1a5d0f53fb51f24a8cd454165cba878, type: 3}
@@ -31784,6 +32084,107 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 739141493734083866, guid: b4aec43c78884de4d80f53634e73a935, type: 3}
   m_PrefabInstance: {fileID: 749699667}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &750810336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 750810337}
+  - component: {fileID: 750810340}
+  - component: {fileID: 750810339}
+  - component: {fileID: 750810338}
+  m_Layer: 5
+  m_Name: Canvas (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &750810337
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750810336}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5999247}
+  m_LocalScale: {x: 0.079113, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1583922410}
+  m_Father: {fileID: 1981614117}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.036005735, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &750810338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750810336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &750810339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750810336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &750810340
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750810336}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &751257222
 GameObject:
   m_ObjectHideFlags: 0
@@ -35667,6 +36068,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rMona Lisa\r\n- Artist: Leonardo da Vinci\r\n- Year: 1503\r\nLeonardo
+        da Vinci\u2019s woman of mystery has intrigued viewers for centuries."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &874525804 stripped
@@ -36184,6 +36590,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: This is Gary from Spongebob, but with an edgy style.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &894162447 stripped
@@ -37137,6 +37547,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Greek temples were structures built to house deity statues within Greek
+        sanctuaries in ancient Greek religion.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1 &913720607
@@ -37582,6 +37997,13 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'In architecture, and specifically in Gothic architecture, a gargoyle
+        is a carved or formed grotesque with a spout designed to convey water from
+        a roof and away from the side of a building, thereby preventing rainwater
+        from running down masonry walls and eroding the mortar between. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1 &928491769
@@ -38162,6 +38584,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Butterflies have a four-stage life cycle, as like most insects they
+        undergo complete metamorphosis.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &937884218 stripped
@@ -38326,6 +38753,13 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rGirl with a Pearl Earring\r\n- Artist: Johannes Vermeer\r\n- Year:
+        1665\r\nA masterpiece of the Dutch Golden Age, Vermeer\u2019s \u201CGirl
+        with a Pearl Earring\u201D has transfixed viewers with her wistful gaze ever
+        since the painting resurfaced in the late 19th century."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &939426105 stripped
@@ -38620,6 +39054,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'Veblicha is a name which consists of our mebers surnames: Velasco,
+        Bili, Limnos, Chaniotakis,'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &943832208 stripped
@@ -42684,6 +43123,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: A rose is a woody perennial flowering plant of the genus Rosa, in the
+        family Rosaceae, or the flower it bears.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1009531005 stripped
@@ -42778,6 +43222,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rGuernica\r\n- Artist: Pablo Picasso\r\n- Year: 1937\r\nAn enormous,
+        shifting mass of distorted, agonized figures, Pablo Picasso\u2019s \u201CGuernica\u201D
+        was the artist's personal response to the horrific bombing inflicted by the
+        Germans on the tiny Basque town in 1937. Picasso expressly forbid the exhibition
+        of his masterwork in Spain until the country became a republic. "
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1010945630 stripped
@@ -45034,6 +45486,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Angels represent the connection between heaven and earth, as well as
+        strength, peace, faith, protection and beauty. Angels can help families feel
+        at ease after a loss knowing that their loved ones are forever protected.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1001 &1054019847
@@ -46783,6 +47241,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rThe Persistence of Memory\r\n- Artist: Salvador Dali\r\n- Year: 1931\r\nSurrealist
+        Salvador Dali subverts reality with this mesmerizing image of deflated timepieces
+        scattered over a desert landscape. The composition defies logic, evoking
+        a dream-like state. Dali employed the \u201Cparanoiac-critical method\u201D
+        in his artistic process, self-inducing a delusional state.q"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1097318671 stripped
@@ -46979,6 +47445,13 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'Amphora
+
+        They were used in vast numbers for the transport and
+        storage of various products, both liquid and dry, but mostly for wine.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1098111748 stripped
@@ -48006,6 +48479,13 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'Tablinum mensa
+
+        Marble table suitable for house office (tablinum)
+        of usual Roman house (Domus).'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1126048526 stripped
@@ -48104,6 +48584,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'The Globe
+
+        ------------
+
+        This statue is inspired by
+        Atlas, who abors under the weight because he had been sentenced by Zeus to
+        hold up the sky.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1001 &1126066299
@@ -49906,7 +50396,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TEXT ABOUT VASES
+  m_text: '<b>Classical Order</b>
+
+    An order in architecture is a certain assemblage
+    of parts
+
+    subject to uniform established proportions,
+
+    regulated by the
+    office that each part
+
+    has to perform. Here are depicted the Ionic order(left)
+
+    and
+    the Corinthian order(right)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -49939,8 +50442,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -50262,6 +50765,9 @@ Transform:
   - {fileID: 1429942969}
   - {fileID: 1864736563}
   - {fileID: 1636298898}
+  - {fileID: 1981614117}
+  - {fileID: 741116164}
+  - {fileID: 489184765}
   m_Father: {fileID: 283428261}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -50485,7 +50991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.228823
+      value: 2.2288237
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalScale.y
@@ -50493,7 +50999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.220169
+      value: 4.2201695
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalPosition.x
@@ -50505,7 +51011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.596575
+      value: 4.0233903
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50551,6 +51057,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: An oil lamp is a lamp used to produce light continuously for a period
+        of time using an oil-based fuel source.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1 &1169344704
@@ -51999,7 +52510,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 36d9b946562d4504c822ece44bb3f054, type: 2}
     - target: {fileID: 5943900352098051452, guid: 98d340899ad0c0143add68e595687cc1, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5943900352098051452, guid: 98d340899ad0c0143add68e595687cc1, type: 3}
       propertyPath: m_LocalScale.x
@@ -52221,6 +52732,13 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: The Chinese dragon, also known as loong, long or lung, is a legendary
+        creature in Chinese mythology, Chinese folklore, and Chinese culture at large.
+        The dragon is a multivalent symbol imbued with many layers of meaning, including
+        protection and happiness.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1190325117 stripped
@@ -52556,6 +53074,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Angels represent the connection between heaven and earth, as well as
+        strength, peace, faith, protection and beauty. Angels can help families feel
+        at ease after a loss knowing that their loved ones are forever protected.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1 &1197868810 stripped
@@ -53523,6 +54047,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: A candle is an ignitable wick embedded in wax, or another flammable
+        solid substance such as tallow, that provides light, and in some cases, a
+        fragrance.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1217082510 stripped
@@ -56169,7 +56699,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NEFERTITI
+  m_text: "<b>Pirate Ship From France(1650 A.C.)</b>\nThese items were retrieved
+    from a pirate ship,\nthat sunk on it way from France.\nThese chests had gold,
+    silver, jewels\nand other precious cargo worth a fortune. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -56202,8 +56734,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -58300,11 +58832,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317952832}
   m_LocalRotation: {x: 0.65830153, y: 0.7523464, z: -0.016211541, w: -0.01874313}
-  m_LocalPosition: {x: -20.93, y: 7.75, z: 20.91}
-  m_LocalScale: {x: 12.893233, y: 0.09434686, z: 3.9445052}
+  m_LocalPosition: {x: -20.9491, y: 7.7545, z: 20.691}
+  m_LocalScale: {x: 12.893233, y: 0.09434686, z: 1.8187177}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 316748226}
+  - {fileID: 1610098955}
   m_Father: {fileID: 660592786}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -0.016, y: 182.84, z: 82.371}
@@ -59502,15 +60035,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.7678049
+      value: -0.823
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 33.280754
+      value: 33.28
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.34787205
+      value: -0.348
       objectReference: {fileID: 0}
     - target: {fileID: 947970212843120989, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -59548,6 +60081,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: This is Eiaswfi, our friendly robot, which inspired our team!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1335178355 stripped
@@ -59844,6 +60381,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'This is a map of the Roman Empire, which was the post-Republican period
+        of ancient Rome. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1339199974 stripped
@@ -60014,7 +60556,8 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
     - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_Text
-      value: Where is Banana Man? Maybe he is hiding because you did not have tickets.
+      value: 'Congratulations! You have unlocked the secret exhibit: Banana Man.
+        The best exhibit of all!'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
@@ -61869,6 +62412,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Artillery began to be used in France in the 14th century. At this early
+        stage, cannon would fire either stone balls or metal pellets.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1386544887 stripped
@@ -63216,7 +63764,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ddb8f9f1fc4c60d4284b37aa110738d7, type: 2}
     - target: {fileID: 8704157378699181388, guid: d221e86bd51b54f41936e88862e1b8b9, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8704157378699181388, guid: d221e86bd51b54f41936e88862e1b8b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -65259,6 +65807,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Drinking Tea, an aromatic beverage prepared by pouring hot or boiling
+        water over cured or fresh leaves.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1463578420 stripped
@@ -65558,6 +66111,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'Space is the boundless three-dimensional extent in which objects and
+        events have relative position and direction. In classical physics, physical
+        space is often conceived in three linear dimensions, although modern physicists
+        usually consider it, with time, to be part of a boundless four-dimensional
+        continuum known as spacetime. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1468756170 stripped
@@ -67852,7 +68413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013355812258, guid: 1b4f3cdb7022a7b45ad8ac3d7465daed, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4000013355812258, guid: 1b4f3cdb7022a7b45ad8ac3d7465daed, type: 3}
       propertyPath: m_LocalScale.x
@@ -70790,6 +71351,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583052221}
   m_CullTransparentMesh: 1
+--- !u!1 &1583922409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1583922410}
+  - component: {fileID: 1583922412}
+  - component: {fileID: 1583922411}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1583922410
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583922409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 750810337}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.4317742, y: 0.49473068}
+  m_AnchorMax: {x: 0.55777663, y: 0.50470465}
+  m_AnchoredPosition: {x: 0.55, y: 0.0069471598}
+  m_SizeDelta: {x: 87.37226, y: 99.04798}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1583922411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583922409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Ancient Greece
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 1
+  m_fontSizeBase: 1
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 39.185917, y: 43.76307, z: 40.08632, w: 43.924545}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1583922412
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583922409}
+  m_CullTransparentMesh: 1
 --- !u!1 &1584476042
 GameObject:
   m_ObjectHideFlags: 0
@@ -71685,6 +72381,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'These are Weapons of Honour (French: Armes d''honneur). Ceremonial
+        weapons awarded for service or assistance to France. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1608852683 stripped
@@ -71802,18 +72503,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610098954}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.69984937}
-  m_LocalScale: {x: 0.0131395515, y: 0.03139508, z: 2.0891945}
+  m_LocalRotation: {x: -0.7071069, y: 0.000000119209275, z: -0.000000029802319, w: -0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: 0.020888612}
+  m_LocalScale: {x: 0.013139552, y: 0.08460289, z: 2.089195}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 17175949}
-  m_Father: {fileID: 316748226}
-  m_RootOrder: 0
+  m_Father: {fileID: 1317952833}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.02, y: 0.15370226}
+  m_AnchoredPosition: {x: 0.018594742, y: 1.4638186}
   m_SizeDelta: {x: 1.0038, y: 0.9836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610098956
@@ -72831,6 +73532,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 780805295}
     m_Modifications:
+    - target: {fileID: 947970211962675975, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.538
+      objectReference: {fileID: 0}
+    - target: {fileID: 947970211962675975, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92249984
+      objectReference: {fileID: 0}
+    - target: {fileID: 947970211962675975, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.38599765
+      objectReference: {fileID: 0}
+    - target: {fileID: 947970211962675975, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 947970211962675975, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 947970211962675975, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 947970211962675975, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45.411
+      objectReference: {fileID: 0}
     - target: {fileID: 947970212383483972, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -72911,6 +73640,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: A dream is a succession of images, ideas, emotions, and sensations that
+        usually occur involuntarily in the mind during certain stages of sleep.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1628612669 stripped
@@ -73301,7 +74035,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 706b60e813a6ed045a1ef7440d367742, type: 2}
     - target: {fileID: 8704157378699181388, guid: d221e86bd51b54f41936e88862e1b8b9, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8704157378699181388, guid: d221e86bd51b54f41936e88862e1b8b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -79643,7 +80377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8386097015735712503, guid: 891297600d38d5247a5ce0184d24e962, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8386097015735712503, guid: 891297600d38d5247a5ce0184d24e962, type: 3}
       propertyPath: m_LocalScale.x
@@ -81116,6 +81850,107 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1803962000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1803962001}
+  - component: {fileID: 1803962004}
+  - component: {fileID: 1803962003}
+  - component: {fileID: 1803962002}
+  m_Layer: 5
+  m_Name: Canvas (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1803962001
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803962000}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5999247}
+  m_LocalScale: {x: 0.079113, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1959733022}
+  m_Father: {fileID: 489184765}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.036005735, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1803962002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803962000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1803962003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803962000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1803962004
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803962000}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1807151602
 GameObject:
   m_ObjectHideFlags: 0
@@ -83077,6 +83912,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Wall painting of Perseus and Andromeda in landscape, from the imperial
+        villa at Boscotrecase, last decade of the 1st century BC
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1853943961 stripped
@@ -83435,7 +84275,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 706b60e813a6ed045a1ef7440d367742, type: 2}
     - target: {fileID: 8704157378699181388, guid: d221e86bd51b54f41936e88862e1b8b9, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8704157378699181388, guid: d221e86bd51b54f41936e88862e1b8b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -84547,6 +85387,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "Caesar Augustus(23 September 63 BC \u2013 19 August AD 14), also known
+        as Octavian, was the first Roman emperor, reigning from 27 BC until his death
+        in AD 14."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1 &1884099557
@@ -85064,7 +85910,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ddb8f9f1fc4c60d4284b37aa110738d7, type: 2}
     - target: {fileID: 8704157378699181388, guid: d221e86bd51b54f41936e88862e1b8b9, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8704157378699181388, guid: d221e86bd51b54f41936e88862e1b8b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -85872,6 +86718,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'Aphrodite of Knidos
+
+        --------------------------------
+
+        The
+        Aphrodite of Knidos (or Cnidus) was an Ancient Greek sculpture of the goddess
+        Aphrodite created by Praxiteles of Athens around the 4th century BC.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!1 &1908323465
@@ -87852,6 +88708,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: 'The Starry Night
+
+        Artist: Vincent van Gogh
+
+        Date:
+        1889
+
+        The comparatively abstract painting is the signature example
+        of van Gogh''s innovative and bold use of thick brushstrokes. The painting''s
+        striking blues and yellows and the dreamy, swirling atmosphere have intrigued
+        art lovers for decades.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1950022309 stripped
@@ -88331,6 +89201,141 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958215247}
   m_Mesh: {fileID: 4300002, guid: 5797bd9bd844a8347bfa426c65f9b35e, type: 3}
+--- !u!1 &1959733021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1959733022}
+  - component: {fileID: 1959733024}
+  - component: {fileID: 1959733023}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1959733022
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959733021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1803962001}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.4317742, y: 0.49473068}
+  m_AnchorMax: {x: 0.55777663, y: 0.50470465}
+  m_AnchoredPosition: {x: 0.55, y: 0.0069471598}
+  m_SizeDelta: {x: 87.37226, y: 99.04798}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1959733023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959733021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Ancient Rome 63 (B.C.)
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 1
+  m_fontSizeBase: 1
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 39.185917, y: 43.76307, z: 40.08632, w: 43.924545}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1959733024
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959733021}
+  m_CullTransparentMesh: 1
 --- !u!1 &1961455770
 GameObject:
   m_ObjectHideFlags: 0
@@ -88690,6 +89695,107 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5016dee2f2df1774e9c4ea33160fca26, type: 3}
+--- !u!1 &1967649789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1967649790}
+  - component: {fileID: 1967649793}
+  - component: {fileID: 1967649792}
+  - component: {fileID: 1967649791}
+  m_Layer: 5
+  m_Name: Canvas (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1967649790
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967649789}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5999247}
+  m_LocalScale: {x: 0.079113, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2025702457}
+  m_Father: {fileID: 741116164}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.036005735, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1967649791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967649789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1967649792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967649789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1967649793
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967649789}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1973187162
 GameObject:
   m_ObjectHideFlags: 0
@@ -88936,6 +90042,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Chinese ceramics show a continuous development since pre-dynastic times
+        and are one of the most significant forms of Chinese art and ceramics globally.
+        The first pottery was made during the Palaeolithic era.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1976649684 stripped
@@ -89159,6 +90271,104 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980438309}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1981614116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1981614117}
+  - component: {fileID: 1981614120}
+  - component: {fileID: 1981614119}
+  - component: {fileID: 1981614118}
+  m_Layer: 0
+  m_Name: Greek
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1981614117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981614116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.964, y: 9.81, z: 29.35}
+  m_LocalScale: {x: 2.0729213, y: 0.61175007, z: 0.05236386}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 750810337}
+  m_Father: {fileID: 1164649036}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1981614118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981614116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1981614119
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981614116}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1981614120
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981614116}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1982360766
 PrefabInstance:
@@ -90245,6 +91455,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: Wall painting from Room H of the Villa of P. Fannius Synistor at Boscoreale,
+        c. 50-40 BC
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &2011501285 stripped
@@ -90468,6 +91683,15 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rSelf-Portrait with Bandaged Ear\r\n- Artist: Vincent van Gogh\r\n-
+        Year: 1889\r\nVincent van Gogh is famous for having severed his own ear;
+        the strained relationship with fellow post-impressionist Paul Gauguin that
+        precipitated the artist\u2019s self-mutilation is not nearly as well known.
+        Van Gogh spent 1888 working in the South of France and was joined in October
+        of that year by Gauguin."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &2014852515 stripped
@@ -90838,15 +92062,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.06119
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.473
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6202
+      value: 0.62
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -90949,6 +92173,141 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4998047054848656, guid: 51575859ce98c794abfd0277386c7ce5, type: 3}
   m_PrefabInstance: {fileID: 2023902424}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2025702456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2025702457}
+  - component: {fileID: 2025702459}
+  - component: {fileID: 2025702458}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2025702457
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025702456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1967649790}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.4317742, y: 0.49473068}
+  m_AnchorMax: {x: 0.55777663, y: 0.50470465}
+  m_AnchoredPosition: {x: 0.55, y: 0.0069471598}
+  m_SizeDelta: {x: 87.37226, y: 99.04798}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2025702458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025702456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Ancient Rome 63 (B.C.)
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 1
+  m_fontSizeBase: 1
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 39.185917, y: 43.76307, z: 40.08632, w: 43.924545}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2025702459
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025702456}
+  m_CullTransparentMesh: 1
 --- !u!1 &2026978521
 GameObject:
   m_ObjectHideFlags: 0
@@ -91730,6 +93089,15 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rWashington Crossing the Delaware\r\n- Artist: Emanuel Leutze\r\n-
+        Year: 1851\r\nNot only was the iconic \u201CWashington Crossing the Delaware\u201D
+        painted almost 75 years after the Revolutionary War, but it was also painted
+        by German artist Emanuel Leutze in D\xFCsseldorf. Leutze had spent time in
+        the U.S. and painted the scene with the hope that it would inspire European
+        revolutionaries.\r"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &2034041634 stripped
@@ -96430,6 +97798,13 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: "\rPortrait of Adele Bloch-Bauer\r\n- Artist: Gustav Klimt\r\n- Year:
+        1907\r\nThis glittering portrait by fin-de-siecle artist Gustav Klimt depicts
+        the Viennese sugar magnate\u2019s wife\u2014art enthusiast and society hostess
+        Adele Bloch-Bauer."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &2127141131 stripped
