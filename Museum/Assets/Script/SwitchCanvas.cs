@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenCart : MonoBehaviour
+public class SwitchCanvas : MonoBehaviour
 {
     [SerializeField] GameObject _cartButton;
     [SerializeField] GameObject _helpButton;
