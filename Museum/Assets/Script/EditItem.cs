@@ -32,4 +32,9 @@ public class EditItem : MonoBehaviour
     {
         Destroy(_image.gameObject);
     }
+    
+    public void BuyItems()
+    {
+        
+    }
 }
