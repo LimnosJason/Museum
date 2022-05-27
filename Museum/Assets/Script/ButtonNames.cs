@@ -6,6 +6,9 @@ using Button = UnityEngine.UI.Button;
 
 public class ButtonNames : MonoBehaviour
 {
+
+    InspectItem inspectItem;
+    [SerializeField] GameObject inspect;
     [SerializeField] TextMeshProUGUI TextUp;
     [SerializeField] TextMeshProUGUI TextDown;
     [SerializeField] GameObject ButtonUp;
@@ -25,13 +28,15 @@ public class ButtonNames : MonoBehaviour
 
     ArtHitBox artHitBox;
     [SerializeField] GameObject artHB;
+
     int numAction;
     void Awake(){
         videoScript = video.GetComponent<VideoScript>();
         mainButtons = talkingButtons.GetComponent<MainButtons>();
         animator = animationObject.GetComponent<AnimationManager>();
         caretakerInteraction = caretakerHitBox.GetComponent<CaretakerInteraction>();
-        artHitBox = artHB.GetComponent<ArtHitBox>();
+        artHitBox = artHB.GetComponent<ArtHitBox>(); 
+        inspectItem = inspect.GetComponent<InspectItem>();
         DisableButtons();
     }
 
@@ -70,6 +75,7 @@ public class ButtonNames : MonoBehaviour
                 break;
             case 1:
                 //artHitBox.
+                inspectItem.EnableCanvas();
                 break;
             case 2:
                 caretakerInteraction.talkingFlag=true;
