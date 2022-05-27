@@ -23669,7 +23669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &490209166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -73534,7 +73534,7 @@ MonoBehaviour:
   _securityCode: {fileID: 688406098}
   _month: {fileID: 16519017}
   _canvasCard: {fileID: 2090837337}
-  _canvas: {fileID: 490209165}
+  _canvas: {fileID: 1079541587}
   _error: {fileID: 1667479315}
   _error1: {fileID: 1155918569}
   _error2: {fileID: 1513753002}
@@ -108164,7 +108164,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2090837338
 RectTransform:
   m_ObjectHideFlags: 0
