@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4370885, g: 0.4848007, b: 0.56506735, a: 1}
+  m_IndirectSpecularColor: {r: 0.4370882, g: 0.48480004, b: 0.565067, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3455,7 +3455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 50.412, y: 49.897}
+  m_AnchoredPosition: {x: 50.39, y: 49.841}
   m_SizeDelta: {x: 1.0038, y: 0.9836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &52983977
@@ -25562,12 +25562,8 @@ PrefabInstance:
     - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
       propertyPath: m_Text
       value: "\rAmerican Gothic\r\n\n- Artist: Grant Wood\r\n- Year: 1930\r\nGrant
-        Wood spent years searching for inspiration in Europe. A national icon and
-        leading exponent of regionalism, \u201CAmerican Gothic\u201D depicts what
-        appears to be a Depression-era farmer and his weathered wife. Grant intended
-        the couple to represent father and daughter; in reality, they were neither.
-        The man holding the pitchfork was Wood\u2019s dentist, Byron McKeeby, flanked
-        by the artist\u2019s sister, Nan Wood Graham.\r"
+        Wood spent years searching for inspiration in Europe. \u201CAmerican Gothic\u201D
+        depicts what appears to be a Depression-era farmer and his weathered wife."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
@@ -40919,6 +40915,11 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &861675331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 947970213300426730, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+  m_PrefabInstance: {fileID: 1340563294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &862361583
 GameObject:
   m_ObjectHideFlags: 0
@@ -45258,13 +45259,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ancient Egyptian pottery\nAncient Egyptian potteryincludes all objects
-    of fired clay from ancient Egypt.\nFirst and foremost, ceramics served as household
-    wares for the storage,\n preparation, transport, and consumption of food, drink,
-    and raw materials.\n Such items include beer and wine mugs and water jugs, but
-    also bread\n molds, fire pits, lamps, and stands for holding round vessels, which
-    were all\n commonly used in the Egyptian household. Other types of pottery served\n
-    ritual purposes. Ceramics are often found as grave goods. "
+  m_text: '<b>Ancient Egyptian pottery</b>
+
+    Ancient Egyptian pottery includes
+    all objects
+
+    of fired clay from ancient Egypt.
+
+    First and foremost,
+    ceramics served as household wares
+
+    for the storage, preparation, transport,
+
+    and
+    consumption of food, drink, and raw materials.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -49614,8 +49622,7 @@ PrefabInstance:
       value: "\rGuernica\r\n- Artist: Pablo Picasso\r\n- Year: 1937\r\nAn enormous,
         shifting mass of distorted, agonized figures, Pablo Picasso\u2019s \u201CGuernica\u201D
         was the artist's personal response to the horrific bombing inflicted by the
-        Germans on the tiny Basque town in 1937. Picasso expressly forbid the exhibition
-        of his masterwork in Spain until the country became a republic. "
+        Germans on the tiny Basque town in 1937. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
@@ -53237,107 +53244,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069326322}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1071761911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1071761912}
-  - component: {fileID: 1071761915}
-  - component: {fileID: 1071761914}
-  - component: {fileID: 1071761913}
-  m_Layer: 5
-  m_Name: Canvas (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1071761912
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071761911}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -0.7}
-  m_LocalScale: {x: 0.05663825, y: 0.052304193, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1712549409}
-  m_Father: {fileID: 1187354088}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 50.012, y: 49.602}
-  m_SizeDelta: {x: 1.0038, y: 0.9836}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1071761913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071761911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1071761914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071761911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
---- !u!223 &1071761915
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071761911}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1 &1072702023
 GameObject:
   m_ObjectHideFlags: 0
@@ -54451,8 +54357,7 @@ PrefabInstance:
       value: "\rThe Persistence of Memory\r\n- Artist: Salvador Dali\r\n- Year: 1931\r\nSurrealist
         Salvador Dali subverts reality with this mesmerizing image of deflated timepieces
         scattered over a desert landscape. The composition defies logic, evoking
-        a dream-like state. Dali employed the \u201Cparanoiac-critical method\u201D
-        in his artistic process, self-inducing a delusional state.q"
+        a dream-like state. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
@@ -60192,8 +60097,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 18.35528}
   m_LocalScale: {x: 5.652591, y: 6.2593255, z: 0.16550557}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1071761912}
+  m_Children: []
   m_Father: {fileID: 115073248}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
@@ -60235,7 +60139,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 886485a10f8fbb14a9b670c71866da3a, type: 2}
+  - {fileID: 2100000, guid: 5abd59031f8db254c84a72f79abcc498, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84306,7 +84210,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1726618072}
+    m_TransformParent: {fileID: 1205500781}
     m_Modifications:
     - target: {fileID: 3028340527461541761, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_Name
@@ -84314,47 +84218,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.5529833
+      value: 4.3467417
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.1972213
+      value: 2.6928048
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.944333
+      value: 4.2782454
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.8405
+      value: -0.043673635
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.07
+      value: -0.92117876
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.8598
+      value: 1.1165729
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.92523736
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.37938884
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -84372,13 +84276,16 @@ PrefabInstance:
       propertyPath: buttons
       value: 
       objectReference: {fileID: 880776380}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: inspect
+      value: 
+      objectReference: {fileID: 193305436}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: itemText
+      value: 
+      objectReference: {fileID: 861675331}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
---- !u!4 &1626047517 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3028340527461541762, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
-  m_PrefabInstance: {fileID: 1626047516}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1627262944
 GameObject:
   m_ObjectHideFlags: 0
@@ -89902,153 +89809,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712385702}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1712549408
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1712549409}
-  - component: {fileID: 1712549411}
-  - component: {fileID: 1712549410}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1712549409
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712549408}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1071761912}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8.2, y: -3.5}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1712549410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712549408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Anubis was depicted
-
-    in black, a color
-
-    that symbolized regeneration,
-
-    life,
-    the soil of the Nile River,
-
-    and the discoloration
-
-    of the corpse after
-    embalming.'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4288728029
-  m_fontColor: {r: 0.8666667, g: 0.79607844, b: 0.627451, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 1.1
-  m_fontSizeBase: 1.1
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
-  m_fontStyle: 0
-  m_HorizontalAlignment: 4
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1712549411
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712549408}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1712732727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90676,7 +90436,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2101324895}
-  - {fileID: 1626047517}
   m_Father: {fileID: 655234117}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -100830,17 +100589,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929527485}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 52983976}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.56, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.14, y: -6.37}
+  m_SizeDelta: {x: 1.0038, y: 0.9836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929527487
 MonoBehaviour:
@@ -100862,10 +100621,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Anubis, also known as Inpu,\nInpw, Jnpw, or Anpui\nn Ancient Egyptian\nis
-    the god of death,\nmummification,\nembalming, the afterlife,\ncemeteries,\ntombs,
-    and the Underworld, \nin ancient Egyptian religion,\nusually depicted as a canineo\nr
-    a man with a canine head. "
+  m_text: 'Anubis in Ancient Egyptian is the god of death,
+
+    mummification the
+    afterlife, and the Underworld,
+
+    in ancient Egyptian religion, usually depicted
+    as a man with a canine head. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -100892,15 +100654,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1.1
-  m_fontSizeBase: 1.1
+  m_fontSize: 1.2
+  m_fontSizeBase: 1.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_fontSizeMax: 46
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -100908,7 +100670,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -100928,7 +100690,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -9.701271, z: -13.813415, w: -2.7043679}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -103992,6 +103754,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad85fd519c090e04d99ab341a5e23ed4, type: 2}
+    - target: {fileID: 947970213300426724, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
+      propertyPath: m_Text
+      value: The Chinese dragon, also known as loong, long or lung, is a legendary
+        creature in Chinese mythology, Chinese folklore, and Chinese culture at large.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
 --- !u!4 &1984095090 stripped
@@ -105191,9 +104958,7 @@ PrefabInstance:
       value: "\rSelf-Portrait with Bandaged Ear\r\n- Artist: Vincent van Gogh\r\n-
         Year: 1889\r\nVincent van Gogh is famous for having severed his own ear;
         the strained relationship with fellow post-impressionist Paul Gauguin that
-        precipitated the artist\u2019s self-mutilation is not nearly as well known.
-        Van Gogh spent 1888 working in the South of France and was joined in October
-        of that year by Gauguin."
+        precipitated the artist\u2019s self-mutilation is not nearly as well known."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
@@ -106691,9 +106456,7 @@ PrefabInstance:
       value: "\rWashington Crossing the Delaware\r\n- Artist: Emanuel Leutze\r\n-
         Year: 1851\r\nNot only was the iconic \u201CWashington Crossing the Delaware\u201D
         painted almost 75 years after the Revolutionary War, but it was also painted
-        by German artist Emanuel Leutze in D\xFCsseldorf. Leutze had spent time in
-        the U.S. and painted the scene with the hope that it would inspire European
-        revolutionaries.\r"
+        by German artist Emanuel Leutze in D\xFCsseldorf. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b168c646ac1a10f4cb407f0d0f9f6c78, type: 3}
