@@ -16,17 +16,20 @@ public class EditItem : MonoBehaviour
     {
         //var input = gameObject.GetComponent<InputField>();
         //Debug.Log(input.text);
-        int numberOfItems =  int.Parse(_itemCount.GetComponent<TMP_InputField>().text);
+        int numberOfItems =  int.Parse(_itemCount.text);
         numberOfItems+=1;
-        _itemCount.GetComponent<TMP_InputField>().text=numberOfItems.ToString();
+        Debug.Log(_itemCount);
+        Debug.Log(_itemCount.text);
+        //_itemCount.GetComponent<TMP_InputField>().text=numberOfItems.ToString();
+        _itemCount.text = numberOfItems.ToString();
     }
     public void MinusOnClick()
     {
-        int numberOfItems =  int.Parse(_itemCount.GetComponent<TMP_InputField>().text);
+        int numberOfItems =  int.Parse(_itemCount.text);
         if(numberOfItems>0){
             numberOfItems-=1;
         }
-        _itemCount.GetComponent<TMP_InputField>().text=numberOfItems.ToString();
+        _itemCount.text = numberOfItems.ToString();
     }
     public void DeleteImage()
     {
