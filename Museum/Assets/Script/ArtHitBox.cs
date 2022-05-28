@@ -21,7 +21,6 @@ public class ArtHitBox : MonoBehaviour
         if(other.gameObject.CompareTag("Player")){
             if(Input.GetKeyDown(KeyCode.I)){
                 buttonNames.ButtonUpActions();
-                getTextItem();
             }
             else if(Input.GetKeyDown(KeyCode.B)){
                 buttonNames.ButtonDownActions();
@@ -31,9 +30,11 @@ public class ArtHitBox : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         buttonNames.DisableButtons();
+        inspectItem.DisableCanvas();
     }
     void OnTriggerEnter(Collider other)
     {
+        getTextItem();
         buttonNames.ArtWorkInteraction();
         buttonNames.EnableButtons();
     }
