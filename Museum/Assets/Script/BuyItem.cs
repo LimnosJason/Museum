@@ -6,10 +6,14 @@ using TMPro;
 public class BuyItem : MonoBehaviour
 {
     
+    [SerializeField] GameObject _canvas;
     [SerializeField] GameObject _plusButton;
     [SerializeField] GameObject _minusButton;
     [SerializeField] TMP_InputField  _itemCount;
 
+    public void EnableCanvas(){
+        _canvas.SetActive(true);
+    }
     public void PlusOnClick()
     {
         //var input = gameObject.GetComponent<InputField>();

@@ -9,7 +9,7 @@ public class SwitchCanvas : MonoBehaviour
     [SerializeField] GameObject _canvas;
     [SerializeField] GameObject _canvasCart;
     [SerializeField] GameObject _canvasHelp;
-   void Update(){
+    void Update(){
         if(Input.GetKeyDown(KeyCode.H)){
             HelpOnClick();
         }

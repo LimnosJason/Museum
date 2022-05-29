@@ -9,6 +9,9 @@ public class ButtonNames : MonoBehaviour
 
     InspectItem inspectItem;
     [SerializeField] GameObject inspect;
+    BuyItem buyItem;
+    [SerializeField] GameObject buy;
+
     [SerializeField] TextMeshProUGUI TextUp;
     [SerializeField] TextMeshProUGUI TextDown;
     [SerializeField] GameObject ButtonUp;
@@ -37,6 +40,7 @@ public class ButtonNames : MonoBehaviour
         caretakerInteraction = caretakerHitBox.GetComponent<CaretakerInteraction>();
         artHitBox = artHB.GetComponent<ArtHitBox>(); 
         inspectItem = inspect.GetComponent<InspectItem>();
+        buyItem = buy.GetComponent<BuyItem>();
         DisableButtons();
     }
 
@@ -74,7 +78,6 @@ public class ButtonNames : MonoBehaviour
                 videoScript.PlayVideo();
                 break;
             case 1:
-                //artHitBox.
                 inspectItem.EnableCanvas();
                 break;
             case 2:
@@ -92,7 +95,7 @@ public class ButtonNames : MonoBehaviour
                 videoScript.PauseVideo();
                 break;
             case 1:
-                //artHitBox.
+                buyItem.EnableCanvas();
                 break;
             case 2:
                 animator.ChangeAnimationState("Waving");

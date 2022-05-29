@@ -32329,6 +32329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c445ede2df508684082ac3e03ddeefb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 650136527}
   _plusButton: {fileID: 1050338906}
   _minusButton: {fileID: 1814198626}
   _itemCount: {fileID: 318102486}
@@ -42138,6 +42139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inspect: {fileID: 193305436}
+  buy: {fileID: 650136527}
   TextUp: {fileID: 579655705}
   TextDown: {fileID: 271361194}
   ButtonUp: {fileID: 46879253}
