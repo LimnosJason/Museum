@@ -19123,8 +19123,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.647, y: -1804.717}
-  m_SizeDelta: {x: 633.83, y: 4132.355}
+  m_AnchoredPosition: {x: -7.6019, y: -2510.7126}
+  m_SizeDelta: {x: 625.7398, y: 5544.345}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394622926
 MonoBehaviour:
@@ -19146,39 +19146,53 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Keybinds\r\n\r\nMovements: A,W,S,D or arrow keys\r\nMouse 2: Camera\r\n\r\n[T]:
-    Talk\r\n[B]: Buy\r\n[I]: Inspect\r\n[Esc]: Back - Exit\r\n\r\n[!] Veblicha Tickets\r\nThe
-    game has 5 tickets spreaded around the museum. Search each one of them and see
-    what happens.\r\n\r\nHints: \r\n\tFirst ticket: Don't you feel like having a
-    coffee?\r\n\tSecond ticket: Is it a bug or is it a feature? The library has something
-    strange going on.\r\n\tThird ticket:\r\n\tFourth ticket:\r\n\tFifth ticket: \r\n\r\n[!]
-    Activate Banana Man\r\nExplore the museum and search for 5 tickets. Once you've
-    collected them return to the first floor - first room, where the banana man is
-    being displayed.\r\n\r\n[!] Projector Room\r\nIt is placed on the first floor
-    on the right side of the main room. \r\nYou can also ask the curator to show
-    you where it is. \r\nOnce in the room , you can watch the projected video by
-    pressing [P] or by clicking on the right side of your screen the \"Play button\".\r\nCheck
-    out also the curator's movement once you've started the video.\r\n\r\n[!] Inspect
-    an exhibit\r\nBy going near an object-exhibit the player can inspect by pressing
-    [I] or the [INSPECT] button. A pop up window will show up with its respective
-    description\r\n\r\n[!] Buy an exhibit\r\nBy going near an object-exhibit, you
-    can add it on your virtual cart by pressing [B] or the [BUY] button. \r\n\r\n\r\n[!]
-    View cart - Complete checkout \r\nOn the top right side of the screen, a cart
+  m_text: "<b>Keybinds</b>\r\n---------\r\n<b><i>User Movement:</i></b> A,W,S,D or
+    arrow keys.\r\n<b><i>Camera Movement:</i></b> Holding Right Mouse Click, you
+    can move your camera.\r\n\r\n <b><i>[K]:</i></b> Cart\r\n <b><i>[H]:</i></b>
+    Help\r\n <b><i>[T]:</i></b> Talk\r\n <b><i>[B]:</i></b> Buy\r\n <b><i>[I]:</i></b>
+    Inspect\r\n <b><i>[C]:</i></b> Collect\r\n <b><i>[P]:</i></b> Play Video\r\n
+    <b><i>[O]:</i></b> Video Over\r\n <b><i>[Esc]:</i></b> Back - Exit - Cancel\r\n---------\r\n\r\n<b>[!]
+    Veblicha Tickets</b>\r\nThe game has 5 tickets spreaded around the museum. Search
+    each one of them and see what happens.\r\n\r\n<b><i>Hints: \r\n</i></b>\r\n\t<b><i>First
+    ticket:</i></b> Don't you feel like having a coffee?\r\n\t<b><i>Second ticket:</i></b>
+    Is it a bug or is it a feature? The library has something strange going on.\r\n\t<b><i>Third
+    ticket:</i></b> Let's sit down and watch something! Choose a seat!\r\n\t<b><i>Fourth
+    ticket:</i></b> Why are there so many pillars ? That's suspicious.\r\n\t<b><i>Fifth
+    ticket:</i></b> Climbing the statues is not allowed but if you want a ticket
+    you might have to.\r\n\r\n<b>[!] Activate Banana Man</b>\r\nExplore the museum
+    and search for 5 tickets. Once you've collected them return to the first floor
+    - first room, where the banana man is being displayed.\r\n\r\n<b>[!] Projector
+    Room</b>\r\nIt is placed on the first floor on the right side of the main room.\r\nYou
+    can also ask the curator to show you where it is. \r\nOnce in the room, you can
+    watch the projected video by pressing [P] or by clicking on the right side of
+    your screen the \"Play button\".\r\nYou can also stop the video by pressing [O]
+    or by clicking on the right side of your screen the \"Over\".\r\n[But wait, do
+    you hear that? Is someone dancing? Better check up on the curator]\r\n\r\n<b>[!]
+    Inspect an exhibit</b>\r\nBy going near an object-exhibit the player can inspect
+    by pressing [I] or the [INSPECT] button. A pop up window will show up with its
+    respective description\r\n\r\n<b>[!] Buy an exhibit</b>\r\nBy going near an object-exhibit,
+    you can add it on your virtual cart by pressing [B] or the [BUY] button. \r\n\r\n\r\n<b>[!]
+    View cart - Complete checkout</b>\r\nOn the top right side of the screen, a cart
     icon is being displayed. You can either press on it or press the key [C].\r\nOnce
     pressed, a pop up window will show up, containing all the items that were added
     in the cart by you.\r\nYou can edit the quantity of each object you want to purchase
     or even delete them.\r\nAlso, next to each object the total price is being displayed
     and you can also see the total price of your purchase.\r\nTo complete the checkout
-    process, press the [BUY] button or [CANCEL] to exit. \r\n\r\n\r\n[!] Elevator\r\nThere
-    are two elevators in the museum. Once you are in the elevator , music will start
+    process, press the [BUY] button or [CANCEL] to exit. \r\n\r\n\r\n<b>[!] Elevator</b>\r\nThere
+    are two elevators in the museum. Once you are in the elevator, music will start
     playing. You may enjoy yourself by listening to it or exit.\r\nYou may stay on
     the floor you are as long as the doors have not closed yet. Once they have closed,
-    you will be transfered to the next/previous floor.\r\n\r\n[!] Room Themes\r\nExplore
+    you will be transfered to the next/previous floor.\r\n\r\n<b>[!] Room Themes</b>\r\nExplore
     the museum and discover room's theme. \r\nOn each room you can see its theme
-    by looking the main labels on the wall.\r\n\r\nFirst floor\r\n\tFirst room: Egyptian
-    Exhibits\r\n\tSecond room: Cafeteria - Creators' portraits\r\n\tThird room:\tProjector
-    Rooom\r\n\tFourth room: Main Room - ???\r\n\tFifth room:\t??? \r\nSecond floor
-    \r\n\tMain room: Paintings of the artist: Maria "
+    by looking the main labels on the wall.\r\n\r\nFirst floor\r\n\t<b><i>First room:</i></b> 
+    Egyptian Exhibits\r\n\t<b><i>Second room(to the right of the main entrance):</i></b>
+    Cafeteria - Creators' portraits\r\n\t<b><i>Third room(to the left of the main
+    entrance):</i></b>   Projector Rooom\r\n\t<b><i>Fourth room: </i></b>\r\n\t\t    
+    <b><i>Main Room:</i></b>\r\n\t\t\tChinese Exhibits\r\n\t\t\tPirate ship sunk
+    leaving France\r\n\t\t\tGreek Exhibits\r\n\t\t\tStatues Inspired by mythology\r\n\t<b><i>Fifth
+    room:</i></b>  Roman Exhibits \r\nSecond floor \r\n\t<b><i>Main room:</i></b>
+    \r\n\t\t   Paintings of the artist: Maria \r\n\t\t   Famous Paintings\r\n\t<b><i>Balcony:</i></b>  
+    More Famous Paintings"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -79732,7 +79746,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 30
   m_Viewport: {fileID: 0}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1726656147}
@@ -87690,7 +87704,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 30
   m_Viewport: {fileID: 1348875222}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 2143197843}
@@ -91325,8 +91339,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 294182029}
   m_HandleRect: {fileID: 294182028}
   m_Direction: 2
-  m_Value: 0.9999999
-  m_Size: 0.12654284
+  m_Value: 1
+  m_Size: 0.0943159
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
