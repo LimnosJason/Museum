@@ -8,7 +8,15 @@ public class SwitchCanvas : MonoBehaviour
     [SerializeField] GameObject _helpButton;
     [SerializeField] GameObject _canvas;
     [SerializeField] GameObject _canvasCart;
-
+    [SerializeField] GameObject _canvasHelp;
+   void Update(){
+        if(Input.GetKeyDown(KeyCode.H)){
+            HelpOnClick();
+        }
+        if(Input.GetKeyDown(KeyCode.K)){
+            CartOnClick();
+        }
+    } 
     public void CartOnClick()
     {
         _canvas.SetActive(false);
@@ -17,6 +25,7 @@ public class SwitchCanvas : MonoBehaviour
 
     public void HelpOnClick()
     {
-        //TODO insert help button onClick action
+        _canvas.SetActive(false);
+        _canvasHelp.SetActive(true);
     }
 }
