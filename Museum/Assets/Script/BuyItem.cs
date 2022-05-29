@@ -69,6 +69,7 @@ public class BuyItem : MonoBehaviour
         var newItem = Instantiate(_cartItemTemplate);
         newItem.transform.SetParent(m_ContentContainer);
         newItem.transform.localScale = Vector2.one;
+        newItem.SetActive(true);
         TextMeshProUGUI[] textArray = newItem.GetComponentsInChildren<TextMeshProUGUI>();
         TextMeshProUGUI itemName = textArray[0];
         TMP_InputField itemCount = newItem.GetComponentInChildren<TMP_InputField>();
