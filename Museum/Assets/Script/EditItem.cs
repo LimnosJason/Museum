@@ -11,25 +11,25 @@ public class EditItem : MonoBehaviour
     [SerializeField] TMP_InputField  _itemCount;
     [SerializeField] GameObject  _deleteButton;
     [SerializeField] Image  _image;
+    [SerializeField] TextMeshProUGUI _itemName;
+    [SerializeField] TextMeshProUGUI _itemCost;
+    int _unitPrice;
+    int _units;
 
     public void PlusOnClick()
     {
-        //var input = gameObject.GetComponent<InputField>();
-        //Debug.Log(input.text);
-        int numberOfItems =  int.Parse(_itemCount.text);
-        numberOfItems+=1;
-        Debug.Log(_itemCount);
-        Debug.Log(_itemCount.text);
-        //_itemCount.GetComponent<TMP_InputField>().text=numberOfItems.ToString();
-        _itemCount.text = numberOfItems.ToString();
+        _units += 1;
+        _itemCount.text = _units.ToString();
+        UpdateTotalCost();
     }
     public void MinusOnClick()
     {
-        int numberOfItems =  int.Parse(_itemCount.text);
-        if(numberOfItems>0){
-            numberOfItems-=1;
+        if (_units > 1)
+        {
+            _units -= 1;
         }
-        _itemCount.text = numberOfItems.ToString();
+        UpdateTotalCost();
+        _itemCount.text = _units.ToString();
     }
     public void DeleteImage()
     {
@@ -39,5 +39,20 @@ public class EditItem : MonoBehaviour
     public void BuyItems()
     {
         
+    }
+
+    public void setUnitPrice(int unitPrice)
+    {
+        _unitPrice = unitPrice;
+    }
+
+    public void setUnits(int units)
+    {
+        _units = units;
+    }
+
+    private void UpdateTotalCost()
+    {
+        _itemCost.SetText("Cost: " + _units * _unitPrice + "€");
     }
 }
