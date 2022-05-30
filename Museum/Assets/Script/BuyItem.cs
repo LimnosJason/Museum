@@ -104,5 +104,6 @@ public class BuyItem : MonoBehaviour
         }
         if(newItem)
             dublicate();
+        Time.timeScale = 1;
     }
 }
