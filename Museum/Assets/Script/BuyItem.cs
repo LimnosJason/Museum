@@ -49,12 +49,12 @@ public class BuyItem : MonoBehaviour
         _unitPrice = newPrice;
         _units = 1;
         _itemCount.text = _units.ToString();
-        _itemPrice.SetText("Total Cost: "+newPrice.ToString()+"€");
+        _itemPrice.SetText("Total Cost: "+newPrice.ToString()+"â‚¬");
     }
 
     private void UpdateTotalCost()
     {
-        _itemPrice.SetText("Total Cost: " + _units*_unitPrice + "€");
+        _itemPrice.SetText("Total Cost: " + _units*_unitPrice + "â‚¬");
     }
 
     public void OnEndEdit()
@@ -69,6 +69,7 @@ public class BuyItem : MonoBehaviour
         var newItem = Instantiate(_cartItemTemplate);
         newItem.transform.SetParent(_contentContainer);
         newItem.transform.localScale = Vector2.one;
+        newItem.transform.rotation = _cartItemTemplate.transform.rotation;
         newItem.SetActive(true);
         TextMeshProUGUI[] textArray = newItem.GetComponentsInChildren<TextMeshProUGUI>();
         TextMeshProUGUI itemName = textArray[0];
@@ -76,11 +77,10 @@ public class BuyItem : MonoBehaviour
         TextMeshProUGUI itemCost = textArray[5];
         itemName.text = _itemName.text;
         itemCount.text = _units.ToString();
-        itemCost.text = "Cost: " + _units * _unitPrice + "€";
+        itemCost.text = "Cost: " + _units * _unitPrice + "â‚¬";
         EditItem editItem = newItem.GetComponentInChildren<EditItem>();
         editItem.setUnitPrice(_unitPrice);
         editItem.setUnits(_units);
-        _canvas.SetActive(false);
         //Debug.Log(itemName.text);
         //Debug.Log(itemCount.text);
         //Debug.Log(itemCost.text);
@@ -105,5 +105,6 @@ public class BuyItem : MonoBehaviour
         if(newItem)
             dublicate();
         Time.timeScale = 1;
+        _canvas.SetActive(false);
     }
 }
