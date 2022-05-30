@@ -15,7 +15,7 @@ public class BuyItem : MonoBehaviour
     [SerializeField] TextMeshProUGUI _itemName;
     [SerializeField] TextMeshProUGUI _itemPrice;
     [SerializeField] GameObject _cartItemTemplate;
-    [SerializeField] Transform m_ContentContainer;
+    [SerializeField] Transform _contentContainer;
     int _unitPrice;
     int _units = 1;
 
@@ -67,7 +67,7 @@ public class BuyItem : MonoBehaviour
     public void dublicate()
     {
         var newItem = Instantiate(_cartItemTemplate);
-        newItem.transform.SetParent(m_ContentContainer);
+        newItem.transform.SetParent(_contentContainer);
         newItem.transform.localScale = Vector2.one;
         newItem.SetActive(true);
         TextMeshProUGUI[] textArray = newItem.GetComponentsInChildren<TextMeshProUGUI>();
@@ -81,10 +81,28 @@ public class BuyItem : MonoBehaviour
         editItem.setUnitPrice(_unitPrice);
         editItem.setUnits(_units);
         _canvas.SetActive(false);
-        Debug.Log(itemName.text);
-        Debug.Log(itemCount.text);
-        Debug.Log(itemCost.text);
+        //Debug.Log(itemName.text);
+        //Debug.Log(itemCount.text);
+        //Debug.Log(itemCost.text);
     }
 
-
+    public void AddToCart()
+    {
+        bool newItem = true;
+        TextMeshProUGUI[] items = _contentContainer.GetComponentsInChildren<TextMeshProUGUI>();
+        for (int i = 0; i < items.Length; i = i+ 6)
+        {
+            if(items[i].text == _itemName.text)
+            {
+                newItem = false;
+                EditItem editItem = _contentContainer.GetChild(i / 6 +1).GetComponent<EditItem>();
+                editItem.addUnits(_units);
+                editItem.UpdateTotalCost();
+                editItem.UpdateItemCount();
+                break;
+            }
+        }
+        if(newItem)
+            dublicate();
+    }
 }

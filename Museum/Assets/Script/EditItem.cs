@@ -19,7 +19,7 @@ public class EditItem : MonoBehaviour
     public void PlusOnClick()
     {
         _units += 1;
-        _itemCount.text = _units.ToString();
+        UpdateItemCount();
         UpdateTotalCost();
     }
     public void MinusOnClick()
@@ -29,7 +29,7 @@ public class EditItem : MonoBehaviour
             _units -= 1;
         }
         UpdateTotalCost();
-        _itemCount.text = _units.ToString();
+        UpdateItemCount();
     }
     public void DeleteImage()
     {
@@ -51,8 +51,18 @@ public class EditItem : MonoBehaviour
         _units = units;
     }
 
-    private void UpdateTotalCost()
+    public void UpdateTotalCost()
     {
         _itemCost.SetText("Cost: " + _units * _unitPrice + "€");
+    }
+
+    public void UpdateItemCount()
+    {
+        _itemCount.text = _units.ToString();
+    }
+
+    public void addUnits(int units)
+    {
+        _units += units;
     }
 }
