@@ -8464,9 +8464,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Oil lamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 631308841}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1 &177461142
@@ -10205,7 +10217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &218261451
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14153,7 +14165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35809eeee7db04c4386bb11345ff66d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 150
+  speed: 50
   playerBody: {fileID: 970121125}
 --- !u!81 &286762317
 AudioListener:
@@ -16168,9 +16180,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Lions
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 453121026}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &338332863 stripped
@@ -16254,9 +16278,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Floor lamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1045856646}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1 &339172073
@@ -19526,9 +19562,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Tables
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1393490346}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &408189387 stripped
@@ -23645,9 +23693,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Knife Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 838233796}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &487045090 stripped
@@ -36163,9 +36223,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Columns
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1157996907}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1 &742546491
@@ -36208,7 +36280,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0000076293945, y: 227.21004}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 7}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &742546493
 MonoBehaviour:
@@ -37925,9 +37997,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Cannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1041375146}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &780399484 stripped
@@ -43800,9 +43884,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Nefertiti
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1156953139}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &935835844 stripped
@@ -51293,6 +51389,10 @@ PrefabInstance:
       propertyPath: itemText
       value: 
       objectReference: {fileID: 497721428}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1034157437 stripped
@@ -53021,9 +53121,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Floral Vase
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1413918012}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1072796462 stripped
@@ -58230,9 +58342,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Julius Ceasar
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1158671073}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1001 &1168434696
@@ -59278,9 +59402,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Geo Lion Stone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 501314641}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1 &1181555540
@@ -63169,9 +63305,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1275487725}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1252250968 stripped
@@ -64628,9 +64776,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Feline Gargoyle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 434278353}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1001 &1275787390
@@ -65621,9 +65781,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Dragon Vases
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1025951263}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1294755685 stripped
@@ -72078,7 +72250,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -72196,9 +72368,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Dragon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 516582998}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1423451316 stripped
@@ -81729,6 +81913,14 @@ PrefabInstance:
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1234954453}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1574128384 stripped
@@ -82483,9 +82675,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Greek Statue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1104278073}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1001 &1588688901
@@ -89153,9 +89357,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Gary
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 847435498}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1703369572 stripped
@@ -91270,6 +91486,10 @@ PrefabInstance:
       propertyPath: itemText
       value: 
       objectReference: {fileID: 640333263}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1753053303 stripped
@@ -92004,9 +92224,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Greek Vase Self
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 364418704}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1770070868 stripped
@@ -98011,6 +98243,10 @@ PrefabInstance:
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1225610196}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1885257543 stripped
@@ -100617,9 +100853,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Greek Male Statue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1771110210}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &1933517518 stripped
@@ -104199,9 +104447,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Classic Column Stone Block
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 294357238}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &2008405447 stripped
@@ -104752,6 +105012,10 @@ PrefabInstance:
       propertyPath: itemText
       value: 
       objectReference: {fileID: 2112934139}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &2015221777 stripped
@@ -108148,9 +108412,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Angel Statue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 935332402}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1 &2081040660
@@ -112560,9 +112836,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Sphere Statue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1714449514}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1 &2135586283
@@ -112977,6 +113265,10 @@ PrefabInstance:
       propertyPath: itemText
       value: 
       objectReference: {fileID: 969902213}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!4 &2140327242 stripped
@@ -113643,8 +113935,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Angel Statue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 1355658163}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
