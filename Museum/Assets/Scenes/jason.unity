@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43708843, g: 0.4848004, b: 0.56506693, a: 1}
+  m_IndirectSpecularColor: {r: 0.4370882, g: 0.48480004, b: 0.565067, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18883,26 +18883,25 @@ MonoBehaviour:
       m_Calls: []
   m_text: "<b>Keybinds</b>\r\n---------\r\n<b><i>User Movement:</i></b> A,W,S,D or
     arrow keys.\r\n<b><i>Camera Movement:</i></b> Holding Right Mouse Click, you
-    can move your camera.\r\n\r\n <b><i>[K]:</i></b> Cart\r\n <b><i>[H]:</i></b>
-    Help\r\n <b><i>[T]:</i></b> Talk\r\n <b><i>[B]:</i></b> Buy\r\n <b><i>[I]:</i></b>
-    Inspect\r\n <b><i>[C]:</i></b> Collect\r\n <b><i>[P]:</i></b> Play Video\r\n<b><i>[O]:</i></b>
-    Video Over\r\n <b><i>[Esc]:</i></b> Back - Exit - Cancel\r\n---------\r\n\r\n<b>[!]
-    Veblicha Tickets</b>\r\nThe game has 5 tickets spreaded around the museum. Search
-    each one of them and see what happens.\r\n\r\n<b><i>Hints: \r\n</i></b>\r\n\t<b><i>First
-    ticket:</i></b> Don't you feel like having a coffee?\r\n\t<b><i>Second ticket:</i></b>
-    Is it a bug or is it a feature? The library has something strange going on.\r\n\t<b><i>Third
-    ticket:</i></b> Let's sit down and watch something! Choose a seat!\r\n\t<b><i>Fourth
-    ticket:</i></b> Why are there so many pillars ? That's suspicious.\r\n\t<b><i>Fifth
-    ticket:</i></b> Climbing the statues is not allowed but if you want a ticket
-    you might have to.\r\n\r\n<b>[!] Activate Banana Man</b>\r\nExplore the museum
-    and search for 5 tickets. Once you've collected them return to the first floor
-    - first room, where the banana man is being displayed.\r\n\r\n<b>[!] Projector
-    Room</b>\r\nIt is placed on the first floor on the right side of the main room.\r\nYou
-    can also ask the curator to show you where it is. \r\nOnce in the room, you can
-    watch the projected video by pressing [P] or by clicking on the right side of
-    your screen the \"Play button\".\r\nYou can also stop the video by pressing [O]
-    or by clicking on the right side of your screen the \"Over\".\r\n[But wait, do
-    you hear that? Is someone dancing? Better check up on the curator]\r\n\r\n<b>[!]
+    can move your camera.\r\n\r\n <b>[K]:</b> Cart\r\n <b>[H]:</b> Help\r\n <b>[T]:</b>
+    Talk\r\n <b>[B]:</b> Buy\r\n <b>[I]:</b> Inspect\r\n <b>[C]:</b> Collect\r\n
+    <b>[P]:</b> Play Video\r\n <b>[O]:</b> Video Over\r\n <b>[Esc]:</b> Back - Exit
+    - Cancel\r\n---------\r\n\r\n<b>[!] Veblicha Tickets</b>\r\nThe game has 5 tickets
+    spreaded around the museum. Search each one of them and see what happens.\r\n\r\n<b><i>Hints:
+    \r\n</i></b>\r\n\t<b><i>First ticket:</i></b> Don't you feel like having a coffee?\r\n\t<b><i>Second
+    ticket:</i></b> Is it a bug or is it a feature? The library has something strange
+    going on.\r\n\t<b><i>Third ticket:</i></b> Let's sit down and watch something!
+    Choose a seat!\r\n\t<b><i>Fourth ticket:</i></b> Why are there so many pillars
+    ? That's suspicious.\r\n\t<b><i>Fifth ticket:</i></b> Climbing the statues is
+    not allowed but if you want a ticket you might have to.\r\n\r\n<b>[!] Activate
+    Banana Man</b>\r\nExplore the museum and search for 5 tickets. Once you've collected
+    them return to the first floor - first room, where the banana man is being displayed.\r\n\r\n<b>[!]
+    Projector Room</b>\r\nIt is placed on the first floor on the right side of the
+    main room.\r\nYou can also ask the curator to show you where it is. \r\nOnce
+    in the room, you can watch the projected video by pressing [P] or by clicking
+    on the right side of your screen the \"Play button\".\r\nYou can also stop the
+    video by pressing [O] or by clicking on the right side of your screen the \"Over\".\r\n[But
+    wait, do you hear that? Is someone dancing? Better check up on the curator]\r\n\r\n<b>[!]
     Inspect an exhibit</b>\r\nBy going near an object-exhibit the player can inspect
     by pressing [I] or the [INSPECT] button. A pop up window will show up with its
     respective description\r\n\r\n<b>[!] Buy an exhibit</b>\r\nBy going near an object-exhibit,
@@ -18913,20 +18912,24 @@ MonoBehaviour:
     in the cart by you.\r\nYou can edit the quantity of each object you want to purchase
     or even delete them.\r\nAlso, next to each object the total price is being displayed
     and you can also see the total price of your purchase.\r\nTo complete the checkout
-    process, press the [BUY] button or [CANCEL] to exit. \r\n\r\n\r\n<b>[!] Elevator</b>\r\nThere
-    are two elevators in the museum. Once you are in the elevator, music will start
-    playing. You may enjoy yourself by listening to it or exit.\r\nYou may stay on
-    the floor you are as long as the doors have not closed yet. Once they have closed,
-    you will be transfered to the next/previous floor.\r\n\r\n<b>[!] Room Themes</b>\r\nExplore
-    the museum and discover room's theme. \r\nOn each room you can see its theme
-    by looking the main labels on the wall.\r\n\r\nFirst floor\r\n\t<b><i>First room:</i></b> 
-    Egyptian Exhibits\r\n\t<b><i>Second room(to the right of the main entrance):</i></b>
-    Cafeteria - Creators' portraits\r\n\t<b><i>Third room(to the left of the main
-    entrance):</i></b>   Projector Rooom\r\n\t<b><i>Fourth room: </i></b>\r\n\t\t    
-    <b><i>Main Room:</i></b>\r\n\t\t\tChinese Exhibits\r\n\t\t\tPirate ship sunk
-    leaving France\r\n\t\t\tGreek Exhibits\r\n\t\t\tStatues Inspired by mythology\r\n\t<b><i>Fifth
-    room:</i></b>  Roman Exhibits \r\nSecond floor \r\n\t<b><i>Main room:</i></b>
-    \r\n\t\t   Paintings of the artist: Maria \r\n\t\t   Famous Paintings\r\n\t<b><i>Balcony:</i></b>  
+    process, press the [BUY] button or [CANCEL] to exit. \r\n\r\n<b>[!] Talk to the
+    Curator</b>\r\nIf you get close to the curator you can talk to him by pressing
+    [T] or the [Talk] button. Frome there you can choose one of the four(4) interaction,\r\nby
+    either clicking on them or by pressing the numbers that appears next to them.\r\nIf
+    you press [Z] or click the [Wave] button you can see the curator waving at you.\r\n\r\n<b>[!]
+    Elevator</b>\r\nThere are two elevators in the museum. Once you are in the elevator,
+    music will start playing. You may enjoy yourself by listening to it or exit.\r\nYou
+    may stay on the floor you are as long as the doors have not closed yet. Once
+    they have closed, you will be transfered to the next/previous floor.\r\n\r\n<b>[!]
+    Room Themes</b>\r\nExplore the museum and discover room's theme. \r\nOn each
+    room you can see its theme by looking the main labels on the wall.\r\n\r\nFirst
+    floor\r\n\t<b><i>First room:</i></b>  Egyptian Exhibits\r\n\t<b><i>Second room(to
+    the right of the main entrance):</i></b> Cafeteria - Creators' portraits\r\n\t<b><i>Third
+    room(to the left of the main entrance):</i></b>   Projector Rooom\r\n\t<b><i>Fourth
+    room: </i></b>\r\n\t\t     <b><i>Main Room:</i></b>\r\n\t\t\tChinese Exhibits\r\n\t\t\tPirate
+    ship sunk leaving France\r\n\t\t\tGreek Exhibits\r\n\t\t\tStatues Inspired by
+    mythology\r\n\t<b><i>Fifth room:</i></b>  Roman Exhibits \r\nSecond floor \r\n\t<b><i>Main
+    room:</i></b> \r\n\t\t   Paintings of the artist: Maria \r\n\t\t   Famous Paintings\r\n\t<b><i>Balcony:</i></b>  
     More Famous Paintings"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
