@@ -20,7 +20,7 @@ public class CaretakerInteraction : MonoBehaviour
                 talkingFlag=true;
                 buttonNames.ButtonUpActions();
             }
-            else if(Input.GetKeyDown(KeyCode.H)){
+            else if(Input.GetKeyDown(KeyCode.Z)){
                 buttonNames.ButtonDownActions();
             }
             else if(talkingFlag){

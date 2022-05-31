@@ -68,7 +68,7 @@ public class ButtonNames : MonoBehaviour
     
     public void CareTakerInteraction(){
         TextUp.text="Talk (T)";
-        TextDown.text="Hello (H)";
+        TextDown.text="Wave (Z)";
         numAction=2;
     }
 

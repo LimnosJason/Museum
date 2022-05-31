@@ -14804,8 +14804,8 @@ RectTransform:
   m_Father: {fileID: 1649547939}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.9056841}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -24101,7 +24101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &490209166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29519,7 +29519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &610987643
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31622,7 +31622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &650136528
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53316,7 +53316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1079541588
 RectTransform:
   m_ObjectHideFlags: 0
@@ -84093,9 +84093,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artName
+      value: Banana Man
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: itemText
       value: 
       objectReference: {fileID: 861675331}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _artPrice
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
+      propertyPath: _buyGameObject
+      value: 
+      objectReference: {fileID: 650136527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
 --- !u!1 &1627262944
@@ -109079,7 +109091,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2090837338
 RectTransform:
   m_ObjectHideFlags: 0
