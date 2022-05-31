@@ -49,12 +49,12 @@ public class BuyItem : MonoBehaviour
         _unitPrice = newPrice;
         _units = 1;
         _itemCount.text = _units.ToString();
-        _itemPrice.SetText("Total Cost: "+newPrice.ToString()+"€");
+        _itemPrice.SetText("Total Cost: "+newPrice.ToString()+"\u20AC");
     }
 
     private void UpdateTotalCost()
     {
-        _itemPrice.SetText("Total Cost: " + _units*_unitPrice + "€");
+        _itemPrice.SetText("Total Cost: " + _units*_unitPrice + "\u20AC");
     }
 
     public void OnEndEdit()
@@ -77,7 +77,7 @@ public class BuyItem : MonoBehaviour
         TextMeshProUGUI itemCost = textArray[5];
         itemName.text = _itemName.text;
         itemCount.text = _units.ToString();
-        itemCost.text = "Cost: " + _units * _unitPrice + "€";
+        itemCost.text = "Cost: " + _units * _unitPrice + "\u20AC";
         EditItem editItem = newItem.GetComponentInChildren<EditItem>();
         editItem.setUnitPrice(_unitPrice);
         editItem.setUnits(_units);
