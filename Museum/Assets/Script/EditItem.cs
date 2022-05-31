@@ -12,7 +12,7 @@ public class EditItem : MonoBehaviour
     int _unitPrice;
     int _units;
     int _oldCost=0;
-    static int s_totalCartCost=0;
+    static public int s_totalCartCost=0;
 
     public void PlusOnClick()
     {

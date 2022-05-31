@@ -16,16 +16,16 @@ public class Pay : MonoBehaviour
     [SerializeField] GameObject _error1;
     [SerializeField] GameObject _error2;
     [SerializeField] GameObject _error3;
-
+    [SerializeField] Transform _contentContainer;
     public void pay()
     {
         bool valid = true;
 
         if (_cardNumber.text.Length < 1)
         {
-            valid=false;
+            valid = false;
             _error.SetActive(true);
-        }else _error.SetActive(false);
+        } else _error.SetActive(false);
 
         if (_nameOnCard.text.Length < 1)
         {
@@ -50,6 +50,12 @@ public class Pay : MonoBehaviour
 
         _canvasCard.SetActive(!valid);
         _canvas.SetActive(valid);
-
+        if (valid) 
+        { 
+            EditItem editItem = _contentContainer.GetComponentInChildren<EditItem>();
+            _contentContainer.DetachChildren();
+            EditItem.s_totalCartCost = 0;
+            editItem.UpdateTotalCost();
+        }
     }
 }
