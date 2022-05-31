@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4370882, g: 0.48480004, b: 0.565067, a: 1}
+  m_IndirectSpecularColor: {r: 0.43708843, g: 0.4848004, b: 0.56506693, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14804,8 +14804,8 @@ RectTransform:
   m_Father: {fileID: 1649547939}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.9056841}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -24101,7 +24101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &490209166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29519,7 +29519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &610987643
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31622,7 +31622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &650136528
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31723,8 +31723,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _canvas: {fileID: 650136527}
-  _plusButton: {fileID: 1050338906}
-  _minusButton: {fileID: 1814198626}
   _itemCount: {fileID: 318102486}
   _itemName: {fileID: 1427111530}
   _itemPrice: {fileID: 2093203137}
@@ -48369,7 +48367,19 @@ MonoBehaviour:
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1769787194}
+        m_TargetAssemblyTypeName: EditItem, Assembly-CSharp
+        m_MethodName: OnEditItemCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnSubmit:
     m_PersistentCalls:
       m_Calls: []
@@ -53316,7 +53326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1079541588
 RectTransform:
   m_ObjectHideFlags: 0
@@ -90371,7 +90381,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 294182028}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.09431592
+  m_Size: 0.0943159
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -91939,13 +91949,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b108d6cb49022cb4bab00d9af62388cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _plusButton: {fileID: 510158226}
-  _minusButton: {fileID: 1784188942}
   _itemCount: {fileID: 1000335297}
-  _deleteButton: {fileID: 840845996}
   _image: {fileID: 1769787192}
-  _itemName: {fileID: 1954548194}
   _itemCost: {fileID: 917462572}
+  _totalCartCostText: {fileID: 1356648532}
 --- !u!1001 &1770070867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109091,7 +109098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2090837338
 RectTransform:
   m_ObjectHideFlags: 0

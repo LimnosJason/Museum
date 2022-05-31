@@ -5,16 +5,14 @@ using UnityEngine.UI;
 using TMPro;
 public class EditItem : MonoBehaviour
 {
-    
-    [SerializeField] GameObject _plusButton;
-    [SerializeField] GameObject _minusButton;
     [SerializeField] TMP_InputField  _itemCount;
-    [SerializeField] GameObject  _deleteButton;
     [SerializeField] Image  _image;
-    [SerializeField] TextMeshProUGUI _itemName;
     [SerializeField] TextMeshProUGUI _itemCost;
+    [SerializeField] TextMeshProUGUI _totalCartCostText;
     int _unitPrice;
     int _units;
+    int _oldCost=0;
+    static int s_totalCartCost=0;
 
     public void PlusOnClick()
     {
@@ -33,6 +31,8 @@ public class EditItem : MonoBehaviour
     }
     public void DeleteImage()
     {
+        _units = 0;
+        UpdateTotalCost();
         Destroy(_image.gameObject);
     }
     
@@ -53,7 +53,11 @@ public class EditItem : MonoBehaviour
 
     public void UpdateTotalCost()
     {
-        _itemCost.SetText("Cost: " + _units * _unitPrice + "€");
+        int newCost = _units * _unitPrice;
+        s_totalCartCost += newCost - _oldCost;
+        _itemCost.SetText("Cost: " + newCost + "€");
+        _totalCartCostText.SetText("Total Cost: " + s_totalCartCost.ToString() + "\u20AC");
+        _oldCost = newCost;
     }
 
     public void UpdateItemCount()
@@ -64,5 +68,19 @@ public class EditItem : MonoBehaviour
     public void addUnits(int units)
     {
         _units += units;
+    }
+
+    public void OnEditItemCount()
+    {
+        Debug.Log(_itemCount.text);
+        int newCount = int.Parse(_itemCount.text);
+        if (newCount < 1)
+        {
+            _units = 1;
+            _itemCount.text = _units.ToString();
+        }
+        else
+            _units = newCount;
+        UpdateTotalCost();
     }
 }

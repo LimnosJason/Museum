@@ -9,8 +9,6 @@ public class BuyItem : MonoBehaviour
 {
     
     [SerializeField] GameObject _canvas;
-    [SerializeField] GameObject _plusButton;
-    [SerializeField] GameObject _minusButton;
     [SerializeField] TMP_InputField  _itemCount;
     [SerializeField] TextMeshProUGUI _itemName;
     [SerializeField] TextMeshProUGUI _itemPrice;
@@ -71,19 +69,13 @@ public class BuyItem : MonoBehaviour
         newItem.transform.localScale = Vector2.one;
         newItem.transform.rotation = _cartItemTemplate.transform.rotation;
         newItem.SetActive(true);
-        TextMeshProUGUI[] textArray = newItem.GetComponentsInChildren<TextMeshProUGUI>();
-        TextMeshProUGUI itemName = textArray[0];
-        TMP_InputField itemCount = newItem.GetComponentInChildren<TMP_InputField>();
-        TextMeshProUGUI itemCost = textArray[5];
+        TextMeshProUGUI itemName = newItem.GetComponentInChildren<TextMeshProUGUI>();
         itemName.text = _itemName.text;
-        itemCount.text = _units.ToString();
-        itemCost.text = "Cost: " + _units * _unitPrice + "\u20AC";
         EditItem editItem = newItem.GetComponentInChildren<EditItem>();
         editItem.setUnitPrice(_unitPrice);
         editItem.setUnits(_units);
-        //Debug.Log(itemName.text);
-        //Debug.Log(itemCount.text);
-        //Debug.Log(itemCost.text);
+        editItem.UpdateTotalCost();
+        editItem.UpdateItemCount();
     }
 
     public void AddToCart()
