@@ -48,14 +48,23 @@ public class Pay : MonoBehaviour
         }
         else _error3.SetActive(false);
 
-        _canvasCard.SetActive(!valid);
-        _canvas.SetActive(valid);
+
         if (valid) 
         { 
             EditItem editItem = _contentContainer.GetComponentInChildren<EditItem>();
-            _contentContainer.DetachChildren();
+            //_contentContainer.DetachChildren(); //bug: detaches template item
             EditItem.s_totalCartCost = 0;
             editItem.UpdateTotalCost();
+            //Debug.Log(_contentContainer.transform.childCount);
+            for (int i = 1; i < _contentContainer.transform.childCount; i++)
+            {
+                //Debug.Log("Destroying: "+_contentContainer.GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text);
+                Destroy(_contentContainer.GetChild(i).gameObject);
+
+            }
         }
+
+        _canvasCard.SetActive(!valid);
+        _canvas.SetActive(valid);
     }
 }
