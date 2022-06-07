@@ -5,39 +5,82 @@ using UnityEngine.UI;
 using TMPro;
 public class EditItem : MonoBehaviour
 {
-    
-    [SerializeField] GameObject _plusButton;
-    [SerializeField] GameObject _minusButton;
     [SerializeField] TMP_InputField  _itemCount;
-    [SerializeField] GameObject  _deleteButton;
     [SerializeField] Image  _image;
+    [SerializeField] TextMeshProUGUI _itemCost;
+    [SerializeField] TextMeshProUGUI _totalCartCostText;
+    int _unitPrice;
+    int _units;
+    int _oldCost=0;
+    static public int s_totalCartCost=0;
 
     public void PlusOnClick()
     {
-        //var input = gameObject.GetComponent<InputField>();
-        //Debug.Log(input.text);
-        int numberOfItems =  int.Parse(_itemCount.text);
-        numberOfItems+=1;
-        Debug.Log(_itemCount);
-        Debug.Log(_itemCount.text);
-        //_itemCount.GetComponent<TMP_InputField>().text=numberOfItems.ToString();
-        _itemCount.text = numberOfItems.ToString();
+        _units += 1;
+        UpdateItemCount();
+        UpdateTotalCost();
     }
     public void MinusOnClick()
     {
-        int numberOfItems =  int.Parse(_itemCount.text);
-        if(numberOfItems>0){
-            numberOfItems-=1;
+        if (_units > 1)
+        {
+            _units -= 1;
         }
-        _itemCount.text = numberOfItems.ToString();
+        UpdateTotalCost();
+        UpdateItemCount();
     }
     public void DeleteImage()
     {
+        _units = 0;
+        UpdateTotalCost();
         Destroy(_image.gameObject);
     }
     
     public void BuyItems()
     {
         
+    }
+
+    public void setUnitPrice(int unitPrice)
+    {
+        _unitPrice = unitPrice;
+    }
+
+    public void setUnits(int units)
+    {
+        _units = units;
+    }
+
+    public void UpdateTotalCost()
+    {
+        int newCost = _units * _unitPrice;
+        s_totalCartCost += newCost - _oldCost;
+        _itemCost.SetText("Cost: " + newCost + "€");
+        _totalCartCostText.SetText("Total Cost: " + s_totalCartCost.ToString() + "\u20AC");
+        _oldCost = newCost;
+    }
+
+    public void UpdateItemCount()
+    {
+        _itemCount.text = _units.ToString();
+    }
+
+    public void addUnits(int units)
+    {
+        _units += units;
+    }
+
+    public void OnEditItemCount()
+    {
+        Debug.Log(_itemCount.text);
+        int newCount = int.Parse(_itemCount.text);
+        if (newCount < 1)
+        {
+            _units = 1;
+            _itemCount.text = _units.ToString();
+        }
+        else
+            _units = newCount;
+        UpdateTotalCost();
     }
 }
