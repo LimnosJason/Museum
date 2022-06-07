@@ -18858,8 +18858,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.6019, y: -2510.7126}
-  m_SizeDelta: {x: 625.7398, y: 5544.345}
+  m_AnchoredPosition: {x: -7.6019, y: -2733.922}
+  m_SizeDelta: {x: 625.7398, y: 5990.764}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394622926
 MonoBehaviour:
@@ -18883,25 +18883,25 @@ MonoBehaviour:
       m_Calls: []
   m_text: "<b>Keybinds</b>\r\n---------\r\n<b><i>User Movement:</i></b> A,W,S,D or
     arrow keys.\r\n<b><i>Camera Movement:</i></b> Holding Right Mouse Click, you
-    can move your camera.\r\n\r\n <b>[K]:</b> Cart\r\n <b>[H]:</b> Help\r\n <b>[T]:</b>
-    Talk\r\n <b>[B]:</b> Buy\r\n <b>[I]:</b> Inspect\r\n <b>[C]:</b> Collect\r\n
-    <b>[P]:</b> Play Video\r\n <b>[O]:</b> Video Over\r\n <b>[Esc]:</b> Back - Exit
-    - Cancel\r\n---------\r\n\r\n<b>[!] Veblicha Tickets</b>\r\nThe game has 5 tickets
-    spreaded around the museum. Search each one of them and see what happens.\r\n\r\n<b><i>Hints:
-    \r\n</i></b>\r\n\t<b><i>First ticket:</i></b> Don't you feel like having a coffee?\r\n\t<b><i>Second
-    ticket:</i></b> Is it a bug or is it a feature? The library has something strange
-    going on.\r\n\t<b><i>Third ticket:</i></b> Let's sit down and watch something!
-    Choose a seat!\r\n\t<b><i>Fourth ticket:</i></b> Why are there so many pillars
-    ? That's suspicious.\r\n\t<b><i>Fifth ticket:</i></b> Climbing the statues is
-    not allowed but if you want a ticket you might have to.\r\n\r\n<b>[!] Activate
-    Banana Man</b>\r\nExplore the museum and search for 5 tickets. Once you've collected
-    them return to the first floor - first room, where the banana man is being displayed.\r\n\r\n<b>[!]
-    Projector Room</b>\r\nIt is placed on the first floor on the right side of the
-    main room.\r\nYou can also ask the curator to show you where it is. \r\nOnce
-    in the room, you can watch the projected video by pressing [P] or by clicking
-    on the right side of your screen the \"Play button\".\r\nYou can also stop the
-    video by pressing [O] or by clicking on the right side of your screen the \"Over\".\r\n[But
-    wait, do you hear that? Is someone dancing? Better check up on the curator]\r\n\r\n<b>[!]
+    can move your camera.\r\n\r\n<b>[K]:</b> Cart\r\n<b>[H]:</b> Help\r\n<b>[T]:</b>
+    Talk\r\n<b>[B]:</b> Buy\r\n<b>[I]:</b> Inspect\r\n<b>[C]:</b> Collect\r\n<b>[P]:</b>
+    Play Video\r\n<b>[O]:</b> Video Over\r\n<b>[Esc]:</b> Back - Exit - Cancel\r\n---------\r\n\r\n<b>[!]
+    Veblicha Tickets</b>\r\nThe game has 5 tickets spreaded around the museum. Search
+    each one of them and see what happens.\r\n\r\n<b><i>Hints: \r\n</i></b>\r\n\t<b><i>First
+    ticket:</i></b> Don't you feel like having a coffee?\r\n\t<b><i>Second ticket:</i></b>
+    Is it a bug or is it a feature? The library has something strange going on.\r\n\t<b><i>Third
+    ticket:</i></b> Let's sit down and watch something! Choose a seat!\r\n\t<b><i>Fourth
+    ticket:</i></b> Why are there so many pillars ? That's suspicious.\r\n\t<b><i>Fifth
+    ticket:</i></b> Climbing the statues is not allowed but if you want a ticket
+    you might have to.\r\n\r\n<b>[!] Activate Banana Man</b>\r\nExplore the museum
+    and search for 5 tickets. Once you've collected them return to the first floor
+    - first room, where the banana man is being displayed.\r\n\r\n<b>[!] Projector
+    Room</b>\r\nIt is placed on the first floor on the right side of the main room.\r\nYou
+    can also ask the curator to show you where it is. \r\nOnce in the room, you can
+    watch the projected video by pressing [P] or by clicking on the right side of
+    your screen the \"Play button\".\r\nYou can also stop the video by pressing [O]
+    or by clicking on the right side of your screen the \"Over\".\r\n[But wait, do
+    you hear that? Is someone dancing? Better check up on the curator]\r\n\r\n<b>[!]
     Inspect an exhibit</b>\r\nBy going near an object-exhibit the player can inspect
     by pressing [I] or the [INSPECT] button. A pop up window will show up with its
     respective description\r\n\r\n<b>[!] Buy an exhibit</b>\r\nBy going near an object-exhibit,
@@ -18993,7 +18993,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -12.708747}
+  m_margin: {x: 0, y: 0, z: 0, w: -1.1450162}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -90426,7 +90426,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 294182028}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.0943159
+  m_Size: 0.08728769
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
