@@ -104892,7 +104892,7 @@ PrefabInstance:
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: inspect
       value: 
-      objectReference: {fileID: 970121119}
+      objectReference: {fileID: 193305436}
     - target: {fileID: 3028340527461541822, guid: ad2dd48c43405c34f9d44fd03ed215bb, type: 3}
       propertyPath: _artName
       value: The Persistence of Memory
