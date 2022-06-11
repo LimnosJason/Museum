@@ -18858,8 +18858,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.6019, y: -2733.922}
-  m_SizeDelta: {x: 625.7398, y: 5990.764}
+  m_AnchoredPosition: {x: -7.6019, y: -2759.5679}
+  m_SizeDelta: {x: 625.7398, y: 6042.056}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394622926
 MonoBehaviour:
@@ -18883,7 +18883,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "<b>Keybinds</b>\r\n---------\r\n<b><i>User Movement:</i></b> A,W,S,D or
     arrow keys.\r\n<b><i>Camera Movement:</i></b> Holding Right Mouse Click, you
-    can move your camera.\r\n\r\n<b>[K]:</b> Cart\r\n<b>[H]:</b> Help\r\n<b>[T]:</b>
+    can move your camera. Holding the control key(ctrl) and scrolling will give you
+    the ability to zoom.\r\n\r\n<b>[K]:</b> Cart\r\n<b>[H]:</b> Help\r\n<b>[T]:</b>
     Talk\r\n<b>[B]:</b> Buy\r\n<b>[I]:</b> Inspect\r\n<b>[C]:</b> Collect\r\n<b>[P]:</b>
     Play Video\r\n<b>[O]:</b> Video Over\r\n<b>[Esc]:</b> Back - Exit - Cancel\r\n---------\r\n\r\n<b>[!]
     Veblicha Tickets</b>\r\nThe game has 5 tickets spreaded around the museum. Search
@@ -90426,7 +90427,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 294182028}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.08728769
+  m_Size: 0.0865467
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
