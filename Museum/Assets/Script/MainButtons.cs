@@ -67,7 +67,8 @@ public class MainButtons : MonoBehaviour
     }
 
     public void TopLeftAction(){
-        ChangeText("The museum was made on the 10th of May 2022, by Limnos, Bili, Velasco and Chaniotakis.","Talking");
+        ChangeText("The museum was made by Limnos, Bili, Velasco and Chaniotakis.(Στα πλαίσια του μαθήματος 'Αλληλεπίδρασης Ανθρώπου-Υπολογιστή' τo έτος 2022)","Talking");
+	    //ChangeText("Δημιουργήθηκε στα πλαίσια του μαθήματος Αλληλεπίδρασης Ανθρώπου-Υπολογιστή τo έτος 2022.","Talking");
 	}
     public void TopRightAction(){
         ChangeText("There was a zombie apocalypse and we are the sole survivors.","Walking");
