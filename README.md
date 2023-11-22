@@ -93,4 +93,4 @@ This project was created by:
 - [Limnos Jason](https://github.com/LimnosJason)
 
 ## Further Analysis(Greek User Manual and Technical Manual)
-* User Manual: [User Manual]()
+* [User Manual](https://github.com/SofiaBili/Museum/blob/main/userManual.pdf)
