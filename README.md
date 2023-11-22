@@ -5,7 +5,8 @@ A game where the user can explore a museum and see the information of the artifa
 - [About](#about)
 - [Tools and Technologies](#tools-and-technologies)
 - [Features](#features)
-- [Presentation](#presentation)
+- [Contribution](#contribution)
+- [User Manual](#user-manual)
 
 ## About
 This project is our first game written in Unity, in which the user can explore the different rooms and read information about each artifact. There is a projector room, where the user can see a video and hidden theater tickets, where if the user collects them all, a hidden artifact appears. The user can buy the different artifacts (he chooses the quantity) using a credit card. There is a museum guide where he can help you by answering some questions using animations, while there is also in-game help.
@@ -92,5 +93,6 @@ This project was created by:
 - [Chaniotakis Nikolas](https://github.com/ChaniotakisNikolaos)
 - [Limnos Jason](https://github.com/LimnosJason)
 
-## Further Analysis(Greek User Manual and Technical Manual)
+## 
+- [Contribution](#contribution)
 * [User Manual](https://github.com/SofiaBili/Museum/blob/main/userManual.pdf)
