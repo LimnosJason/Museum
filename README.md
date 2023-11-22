@@ -93,6 +93,6 @@ This project was created by:
 - [Chaniotakis Nikolas](https://github.com/ChaniotakisNikolaos)
 - [Limnos Jason](https://github.com/LimnosJason)
 
-## 
+## User Manual
 - [Contribution](#contribution)
 * [User Manual](https://github.com/SofiaBili/Museum/blob/main/userManual.pdf)
