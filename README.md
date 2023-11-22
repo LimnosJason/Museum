@@ -94,5 +94,4 @@ This project was created by:
 - [Limnos Jason](https://github.com/LimnosJason)
 
 ## User Manual
-- [Contribution](#contribution)
 * [User Manual](https://github.com/SofiaBili/Museum/blob/main/userManual.pdf)
