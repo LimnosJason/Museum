@@ -88,10 +88,10 @@ This project is our first game written in Unity, in which the user can explore t
 ## Contribution
 
 This project was created by:
-- [Me-Sofia Bili](https://github.com/SofiaBili)
+- [Me-Limnos Jason](https://github.com/LimnosJason)
+- [Sofia Bili](https://github.com/SofiaBili)
 - [Velasco Paola](https://github.com/PaolaVlsc)
 - [Chaniotakis Nikolas](https://github.com/ChaniotakisNikolaos)
-- [Limnos Jason](https://github.com/LimnosJason)
 
 ## User Manual
 * [User Manual](https://github.com/SofiaBili/Museum/blob/main/userManual.pdf)
